@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meštrić, Brežice | Elektroinštalacije, pleskarstvo in zaključna dela</title>
+<meta name="description" content="Damir Meštrić s.p. iz Brežic. Elektroinštalacije, razsvetljava, pleskarska in zaključna dela. Adaptacije kopalnic, stanovanj in mansard. Pokličite 070 197 107.">
+<meta name="theme-color" content="#F1F0EC">
+<meta name="author" content="Elektro, pleskarska in zaključna dela, Damir Meštrić s.p.">
+<link rel="canonical" href="https://example.si/"><!-- DEPLOY STEP: absolute live URL -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sl_SI">
+<meta property="og:title" content="Meštrić, Brežice | Elektroinštalacije, pleskarstvo in zaključna dela">
+<meta property="og:description" content="Tri obrti, en mojster. Elektroinštalacije, pleskarstvo in zaključna dela v Brežicah in po Sloveniji.">
+<meta property="og:url" content="https://example.si/"><!-- DEPLOY STEP: absolute live URL -->
+<meta property="og:image" content="https://example.si/assets/kontakt.jpg"><!-- DEPLOY STEP: absolute live URL -->
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2316181A'/%3E%3Cpath d='M16 6.5v8.6' stroke='%23F1F0EC' stroke-width='2.6' stroke-linecap='round'/%3E%3Ccircle cx='16' cy='22' r='3.6' fill='%23E2892C'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Instrument+Sans:wght@400;500&family=Martian+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ============ tokens ============ */
+:root{
+  --canvas:#F1F0EC;
+  --canvas-2:#E6E4DE;
+  --paper:#FAF9F6;
+  --ink:#16181A;
+  --ink-2:#5B5C58;
+  --ink-3:#7A7B75;
+  --line:#D6D3CA;
+  --oak:#B98A5A;
+  --accent:#C2691A;
+  --accent-deep:#9C520F;
+  --glow:rgba(240,170,80,.55);
+  --ease:cubic-bezier(.22,.72,.2,1);
+  --ease-soft:cubic-bezier(.4,0,.2,1);
+  --pad:clamp(20px,5vw,72px);
+  --rail:clamp(14px,3.2vw,52px);
+  --maxw:1280px;
+}
+*{box-sizing:border-box}
+html{background:var(--canvas);overflow-x:hidden;overflow-x:clip;scroll-behavior:smooth}
+body{overflow-x:hidden;overflow-x:clip;margin:0;background:transparent;color:var(--ink);
+  font-family:"Instrument Sans",system-ui,-apple-system,Segoe UI,sans-serif;
+  font-size:clamp(15px,1.05vw,17px);line-height:1.62;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:-8%;z-index:-2;pointer-events:none;
+  background:
+    radial-gradient(1100px 720px at 16% 10%, rgba(226,137,44,.13), transparent 62%),
+    radial-gradient(940px 640px at 86% 76%, rgba(120,136,148,.13), transparent 64%),
+    var(--canvas);
+  animation:envdrift 96s var(--ease-soft) -22s infinite alternate}
+body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.055;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E")}
+@keyframes envdrift{from{transform:translate3d(-1.4%,-1%,0) scale(1.02)}to{transform:translate3d(1.6%,1.4%,0) scale(1.06)}}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3,p,figure,ul,ol,dl{margin:0}
+ul{padding:0;list-style:none}
+a{color:inherit}
+::selection{background:rgba(226,137,44,.26)}
+:focus-visible{outline:2.5px solid var(--accent-deep);outline-offset:3px;border-radius:3px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip{position:absolute;left:12px;top:-64px;z-index:90;background:var(--ink);color:var(--paper);padding:12px 18px;border-radius:10px;text-decoration:none;transition:top .25s var(--ease)}
+.skip:focus{top:12px}
+
+/* ============ type ============ */
+.kicker{font-family:"Martian Mono",ui-monospace,monospace;font-size:11px;font-weight:400;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+.dsp{font-family:"Bricolage Grotesque","Instrument Sans",sans-serif;font-weight:700;
+  line-height:1.02;letter-spacing:-.022em;font-variation-settings:"opsz" 48}
+h2.dsp{font-size:clamp(2rem,4.3vw,3.5rem)}
+h3.dsp{font-size:clamp(1.28rem,2vw,1.7rem);line-height:1.14;letter-spacing:-.014em}
+.lede{color:var(--ink-2);font-size:clamp(1.02rem,1.35vw,1.2rem);max-width:52ch}
+.wrap{max-width:var(--maxw);margin:0 auto;padding-left:calc(var(--rail) + var(--pad));padding-right:var(--pad)}
+
+/* ============ buttons ============ */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;
+  font-family:"Instrument Sans",sans-serif;font-size:1rem;font-weight:500;letter-spacing:.005em;
+  padding:15px 26px;border-radius:13px;border:1px solid transparent;text-decoration:none;cursor:pointer;
+  transition:transform .4s var(--ease),box-shadow .4s var(--ease),background-color .3s var(--ease),color .3s var(--ease),border-color .3s var(--ease);
+  background:none}
+.btn--go{background:var(--ink);color:var(--paper);box-shadow:0 2px 0 rgba(22,24,26,.16),0 12px 34px -14px rgba(226,137,44,.75)}
+.btn--go:hover{transform:translateY(-2px);box-shadow:0 3px 0 rgba(22,24,26,.16),0 20px 44px -14px rgba(226,137,44,.95)}
+.btn--ghost{border-color:rgba(22,24,26,.24);color:var(--ink)}
+.btn--ghost:hover{border-color:var(--ink);background:rgba(22,24,26,.045);transform:translateY(-2px)}
+.btn .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 0 var(--glow);flex:none}
+.btn--go:hover .dot{animation:pip 1.5s var(--ease-soft) infinite}
+@keyframes pip{0%{box-shadow:0 0 0 0 var(--glow)}70%{box-shadow:0 0 0 9px rgba(240,170,80,0)}100%{box-shadow:0 0 0 0 rgba(240,170,80,0)}}
+@media (pointer:coarse){.btn{min-height:48px}}
+
+/* ============ nav ============ */
+.nav{position:fixed;top:0;left:0;right:0;z-index:60;display:flex;align-items:center;gap:18px;
+  padding:14px var(--pad);transition:background-color .5s var(--ease),box-shadow .5s var(--ease)}
+.nav.solid{background:rgba(241,240,236,.86);backdrop-filter:blur(14px);box-shadow:0 1px 0 rgba(22,24,26,.09)}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;margin-right:auto}
+.brand svg{width:32px;height:32px;flex:none}
+.brand b{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:1.06rem;letter-spacing:.02em;display:block;line-height:1.1}
+.brand span{font-family:"Martian Mono",monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);display:block}
+.navlinks{display:flex;gap:6px}
+.navlinks a{font-size:.94rem;text-decoration:none;color:var(--ink-2);padding:9px 13px;border-radius:9px;transition:color .3s var(--ease),background-color .3s var(--ease)}
+.navlinks a:hover{color:var(--ink);background:rgba(22,24,26,.055)}
+.nav .btn{padding:11px 18px;font-size:.94rem}
+.ic-phone{display:none;width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.8}
+@media (max-width:980px){.navlinks{display:none}}
+@media (max-width:640px){.brand span span{display:none}.brand b{font-size:1rem}}
+@media (max-width:520px){
+  .navcall span,.navcall .dot{display:none}
+  .ic-phone{display:block}
+  .navcall{padding:12px 14px}
+}
+
+/* ============ hero ============ */
+.hero{position:relative;padding:clamp(118px,15vh,164px) 0 clamp(48px,7vw,88px);overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:clamp(28px,5vw,84px);align-items:center}
+.hero-copy>*{opacity:0;transform:translateY(18px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.hero.in .hero-copy>*{opacity:1;transform:none}
+.hero.in .hero-copy>:nth-child(2){transition-delay:.08s}
+.hero.in .hero-copy>:nth-child(3){transition-delay:.16s}
+.hero.in .hero-copy>:nth-child(4){transition-delay:.24s}
+.hero.in .hero-copy>:nth-child(5){transition-delay:.32s}
+.hero .kicker{display:inline-flex;align-items:center;gap:.7em;margin-bottom:22px}
+.hero .kicker i{width:6px;height:6px;border-radius:50%;background:var(--accent);flex:none;font-style:normal}
+.hero h1{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:clamp(2.6rem,5.6vw,4.9rem);
+  line-height:1.0;letter-spacing:-.03em;font-variation-settings:"opsz" 96;max-width:11ch}
+.hero .lede{margin-top:24px;max-width:38ch}
+.hero .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.hero .facts{display:flex;flex-wrap:wrap;gap:8px 26px;margin-top:34px;padding-top:24px;border-top:1px solid var(--line)}
+.hero .facts li{display:flex;align-items:center;gap:9px;font-family:"Martian Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2)}
+.hero .facts i{width:6px;height:6px;border-radius:50%;background:var(--accent);font-style:normal}
+.hero-art{position:relative;height:min(76vh,700px);min-height:440px}
+.hero-main,.hero-second{position:absolute;border-radius:22px;overflow:hidden;background:var(--canvas-2);
+  opacity:0;transition:opacity 1.1s var(--ease),transform 1.1s var(--ease)}
+.hero-main{right:0;top:0;width:min(64%,430px);transform:translateY(28px) rotate(.6deg);
+  box-shadow:0 44px 90px -44px rgba(22,24,26,.7),0 18px 40px -30px rgba(22,24,26,.5)}
+.hero-second{left:0;bottom:6%;width:min(46%,300px);border-radius:18px;transform:translateY(34px) rotate(-.8deg);transition-delay:.18s;
+  box-shadow:0 34px 70px -36px rgba(22,24,26,.7)}
+.hero.in .hero-main,.hero.in .hero-second{opacity:1;transform:none}
+.hero-main img,.hero-second img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.hero-main::after,.hero-second::after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;box-shadow:inset 0 0 0 1px rgba(22,24,26,.1)}
+.hero-plate{position:absolute;right:14px;top:14px;display:flex;align-items:center;gap:9px;
+  font-family:"Martian Mono",monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#F4F2ED;
+  background:rgba(14,16,17,.5);border:1px solid rgba(255,255,255,.18);border-radius:99px;padding:8px 13px;backdrop-filter:blur(8px)}
+.hero-plate i{width:6px;height:6px;border-radius:50%;background:var(--accent);font-style:normal;box-shadow:0 0 10px rgba(226,137,44,.9)}
+.hero-glow{position:absolute;left:-12%;top:8%;width:120%;height:90%;pointer-events:none;z-index:-1;
+  background:radial-gradient(closest-side,rgba(226,137,44,.18),transparent 72%);filter:blur(10px)}
+.hero-parallax{will-change:transform}
+@media (max-width:900px){
+  .hero-grid{grid-template-columns:1fr}
+  .hero-art{height:auto;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:end}
+  .hero-main,.hero-second{position:relative;inset:auto;width:100%;bottom:auto;transform:none}
+  .hero-main{grid-column:1/-1;max-width:460px;margin:0 auto}
+  .hero-second{display:none}
+  .hero h1{max-width:12ch}
+}
+@media (max-width:520px){.hero .cta{display:grid;grid-template-columns:1fr}.hero .cta .btn{width:100%}}
+
+/* trust strip */
+.trust{background:var(--canvas-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.trust .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.trust div{padding:24px 26px 24px 0;border-right:1px solid var(--line)}
+.trust div:last-child{border-right:0}
+.trust b{font-family:"Martian Mono",monospace;font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent-deep);display:block;margin-bottom:6px;font-weight:400}
+.trust span{font-size:.95rem;color:var(--ink-2)}
+@media (max-width:900px){.trust .wrap{grid-template-columns:repeat(2,1fr)}.trust div:nth-child(2){border-right:0}
+  .trust div:nth-child(3),.trust div:nth-child(4){border-top:1px solid var(--line)}}
+@media (max-width:560px){.trust .wrap{grid-template-columns:1fr}.trust div{border-right:0;border-top:1px solid var(--line);padding-right:0}.trust div:first-child{border-top:0}}
+
+/* ============ rail, the light line ============ */
+.railwrap{position:relative}
+.rail{position:absolute;left:calc(var(--rail) - 1px);top:0;bottom:0;width:2px;pointer-events:none;z-index:2}
+.rail-track{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(214,211,202,0),var(--line) 40px,var(--line) calc(100% - 90px),rgba(214,211,202,0))}
+.rail-fill{position:absolute;left:0;top:0;width:2px;height:100%;transform-origin:0 0;transform:scaleY(0);will-change:transform;
+  background:linear-gradient(to bottom,rgba(226,137,44,.15),var(--accent));box-shadow:0 0 12px rgba(226,137,44,.4)}
+.rail-head{position:absolute;left:-5px;top:-6px;width:12px;height:12px;border-radius:50%;
+  background:radial-gradient(circle,rgba(255,205,140,.95) 0%,rgba(226,137,44,.7) 45%,rgba(226,137,44,0) 72%);
+  will-change:transform;animation:headpulse 4.4s var(--ease-soft) -1.4s infinite}
+@keyframes headpulse{0%,100%{opacity:.55}50%{opacity:1}}
+.rail-head.off{visibility:hidden}
+.node{position:absolute;left:-4px;width:10px;height:10px;border-radius:50%;
+  background:var(--canvas);border:2px solid var(--line);transition:border-color .6s var(--ease),background-color .6s var(--ease),box-shadow .6s var(--ease),transform .6s var(--ease)}
+.node.lit{border-color:var(--accent);background:var(--accent);box-shadow:0 0 0 5px rgba(226,137,44,.14),0 0 18px rgba(226,137,44,.55);transform:scale(1.16)}
+.node b{position:absolute;left:9px;top:3px;height:2px;width:26px;background:var(--line);display:block;
+  transform:scaleX(0);transform-origin:0 50%;transition:transform .7s var(--ease) .1s,background-color .6s var(--ease)}
+.node.lit b{transform:scaleX(1);background:linear-gradient(to right,var(--accent),rgba(226,137,44,0))}
+@media (max-width:640px){.node b{width:16px}}
+
+/* ============ sections ============ */
+section{position:relative}
+.sec{padding:clamp(84px,11vw,168px) 0}
+.sechead{max-width:var(--maxw);margin:0 auto}
+.sechead .kicker{display:block;margin-bottom:16px}
+.sechead h2{margin-bottom:20px}
+
+/* reveal */
+[data-rv]>*{opacity:0;transform:translateY(20px);
+  transition:opacity .85s var(--ease),transform .85s var(--ease);transition-delay:calc(var(--i,0)*78ms)}
+[data-rv].in>*{opacity:1;transform:none}
+[data-rv].in.rvdone>*{transition-delay:0s}
+
+/* A. trije sloji */
+.layer{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,72px);align-items:center;
+  margin-top:clamp(56px,7vw,104px)}
+.layer.flip .layer-fig{order:2}
+.layer-fig{position:relative;border-radius:18px;overflow:hidden;background:var(--canvas-2);
+  box-shadow:0 30px 70px -44px rgba(22,24,26,.6)}
+.layer-fig img{width:100%;aspect-ratio:3/2;object-fit:cover;transition:transform 1.2s var(--ease)}
+.layer:hover .layer-fig img{transform:scale(1.035)}
+.layer-fig::after{content:"";position:absolute;inset:0;pointer-events:none;
+  box-shadow:inset 0 0 0 1px rgba(22,24,26,.09);border-radius:18px}
+.layer-num{font-family:"Martian Mono",monospace;font-size:11px;letter-spacing:.14em;color:var(--accent-deep)}
+.layer h3{margin:12px 0 14px}
+.layer p{color:var(--ink-2);max-width:40ch}
+.layer .taglist{display:flex;flex-wrap:wrap;gap:7px;margin-top:20px}
+.taglist span{font-family:"Martian Mono",monospace;font-size:10px;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--ink-2);border:1px solid var(--line);border-radius:99px;padding:6px 11px;background:rgba(250,249,246,.5)}
+@media (max-width:840px){.layer{grid-template-columns:1fr}.layer.flip .layer-fig{order:0}}
+
+/* D. gallery */
+.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:clamp(10px,1.4vw,20px);margin-top:clamp(44px,6vw,76px)}
+.gitem{grid-column:span 2;position:relative;border:0;padding:0;background:var(--canvas-2);border-radius:15px;
+  overflow:hidden;cursor:zoom-in;display:block;width:100%;text-align:left}
+.gitem:nth-child(1),.gitem:nth-child(2),.gitem:nth-child(6),.gitem:nth-child(7){grid-column:span 3}
+.gitem img{width:100%;aspect-ratio:3/4;object-fit:cover;transition:transform 1.1s var(--ease)}
+.gitem:hover img{transform:scale(1.045)}
+.gitem figcaption{position:absolute;left:0;right:0;bottom:0;padding:34px 16px 14px;color:#F6F4F0;font-size:.88rem;
+  background:linear-gradient(to top,rgba(14,16,17,.76),rgba(14,16,17,0));
+  opacity:0;transform:translateY(8px);transition:opacity .5s var(--ease),transform .5s var(--ease)}
+.gitem:hover figcaption,.gitem:focus-visible figcaption{opacity:1;transform:none}
+.gitem::after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:15px;box-shadow:inset 0 0 0 1px rgba(22,24,26,.09)}
+@media (max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}
+  .gitem,.gitem:nth-child(1),.gitem:nth-child(2),.gitem:nth-child(6),.gitem:nth-child(7){grid-column:span 1}
+  .gitem figcaption{opacity:1;transform:none}}
+dialog.lb{border:0;padding:0;background:transparent;max-width:100vw;max-height:100vh;width:100%;height:100%}
+dialog.lb::backdrop{background:rgba(20,20,22,.9)}
+.lb-in{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:14px;padding:18px}
+.lb-in img{max-height:78vh;width:auto;border-radius:10px;box-shadow:0 40px 90px -40px rgba(0,0,0,.9)}
+.lb-cap{color:#EDEBE6;font-size:.94rem;text-align:center;max-width:56ch}
+.lb-bar{display:flex;gap:10px}
+.lb-bar button{border:1px solid rgba(255,255,255,.26);background:rgba(255,255,255,.06);color:#F4F2ED;
+  border-radius:11px;padding:11px 18px;cursor:pointer;font-family:"Instrument Sans",sans-serif;font-size:.92rem;
+  transition:background-color .3s var(--ease),border-color .3s var(--ease)}
+.lb-bar button:hover{background:rgba(255,255,255,.16);border-color:rgba(255,255,255,.55)}
+
+/* O nas */
+.onas{background:var(--canvas-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.onas-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:clamp(28px,6vw,96px);align-items:center}
+.onas-fig{position:relative;border-radius:20px;overflow:hidden;box-shadow:0 40px 80px -46px rgba(22,24,26,.7);background:var(--canvas)}
+.onas-fig img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.onas-fig::after{content:"";position:absolute;inset:0;border-radius:20px;pointer-events:none;box-shadow:inset 0 0 0 1px rgba(22,24,26,.1)}
+.onas-fig figcaption{position:absolute;left:14px;bottom:14px;right:14px;color:#F4F2ED;font-size:.86rem;
+  background:rgba(14,16,17,.5);border:1px solid rgba(255,255,255,.16);border-radius:12px;padding:10px 13px;backdrop-filter:blur(8px)}
+.onas-copy .big{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:clamp(1.35rem,2.3vw,1.85rem);
+  line-height:1.24;letter-spacing:-.016em;max-width:26ch;margin:22px 0 20px}
+.onas-copy p{color:var(--ink-2);max-width:56ch}
+.onas-copy p+p{margin-top:14px}
+.onas-facts{display:grid;grid-template-columns:repeat(2,1fr);gap:0 28px;margin-top:30px;border-top:1px solid var(--line)}
+.onas-facts div{padding:16px 0;border-bottom:1px solid var(--line)}
+.onas-facts dt{font-family:"Martian Mono",monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.onas-facts dd{margin:5px 0 0;font-size:.97rem;color:var(--ink)}
+@media (max-width:900px){.onas-grid{grid-template-columns:1fr}.onas-fig{max-width:460px}}
+@media (max-width:560px){.onas-facts{grid-template-columns:1fr}}
+
+/* B. potek */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:clamp(44px,6vw,76px);
+  border-top:1px solid var(--line)}
+.step{padding:32px 26px 34px 0;border-right:1px solid var(--line);position:relative}
+.step:last-child{border-right:0}
+.step::before{content:"";position:absolute;left:0;top:-5px;width:9px;height:9px;border-radius:50%;
+  background:var(--canvas);border:2px solid var(--line);transition:background-color .6s var(--ease),border-color .6s var(--ease)}
+[data-rv].in .step::before{background:var(--accent);border-color:var(--accent)}
+.step b{font-family:"Martian Mono",monospace;font-size:11px;letter-spacing:.14em;color:var(--accent-deep);display:block}
+.step h3{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:1.16rem;margin:14px 0 10px;letter-spacing:-.01em}
+.step p{color:var(--ink-2);font-size:.97rem}
+@media (max-width:900px){.steps{grid-template-columns:repeat(2,1fr)}.step:nth-child(2){border-right:0}
+  .step:nth-child(3),.step:nth-child(4){border-top:1px solid var(--line);margin-top:-1px}}
+@media (max-width:560px){.steps{grid-template-columns:1fr}.step{border-right:0;border-top:1px solid var(--line);margin-top:-1px;padding-right:0}}
+
+/* C. the dimmer */
+.dim{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(28px,5vw,68px);align-items:center;margin-top:clamp(44px,6vw,72px)}
+.dimstage{position:relative;border-radius:18px;overflow:hidden;background:#0d0f10;aspect-ratio:4/3;
+  box-shadow:0 34px 80px -46px rgba(22,24,26,.7)}
+.dimstage img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.dimstage .dark{filter:brightness(.42) saturate(.6) contrast(1.06);opacity:calc(1 - var(--p,0))}
+.dimstage .warm{position:absolute;inset:0;pointer-events:none;opacity:calc(var(--p,0)*.55);
+  background:radial-gradient(58% 46% at 30% 74%, rgba(255,196,120,.55), transparent 70%)}
+.dimstage .plate{position:absolute;left:5%;bottom:6%;display:flex;align-items:center;gap:9px;
+  font-family:"Martian Mono",monospace;font-size:10px;letter-spacing:.13em;text-transform:uppercase;
+  color:#F4F2ED;background:rgba(14,16,17,.5);border:1px solid rgba(255,255,255,.18);border-radius:99px;
+  padding:8px 14px;backdrop-filter:blur(8px)}
+.dimstage .plate i{width:7px;height:7px;border-radius:50%;background:#5c5f60;font-style:normal;
+  transition:background-color .5s var(--ease),box-shadow .5s var(--ease)}
+.dim.lit-on .plate i{background:var(--accent);box-shadow:0 0 12px rgba(226,137,44,.9)}
+.holdbtn{position:relative;overflow:hidden;width:100%;justify-content:space-between;
+  background:var(--paper);border:1px solid rgba(22,24,26,.2);color:var(--ink);padding:17px 22px;margin-top:26px}
+.holdbtn:hover{border-color:var(--ink)}
+.holdbtn .fillbar{position:absolute;left:0;top:0;bottom:0;width:100%;background:rgba(226,137,44,.17);
+  transform:scaleX(var(--p,0));transform-origin:0 50%}
+.holdbtn span{position:relative;z-index:1}
+.holdbtn .pct{position:relative;z-index:1;font-family:"Martian Mono",monospace;font-size:11px;color:var(--ink-2)}
+.dimlist{margin-top:30px;display:grid;gap:2px}
+.dimlist li{display:flex;gap:15px;align-items:flex-start;padding:16px 0;border-top:1px solid var(--line);color:var(--ink-2)}
+.dimlist li i{width:9px;height:9px;border-radius:50%;background:var(--canvas-2);border:2px solid var(--line);
+  margin-top:.5em;flex:none;font-style:normal;transition:background-color .6s var(--ease),border-color .6s var(--ease),box-shadow .6s var(--ease)}
+.dim.lit-on .dimlist li i{background:var(--accent);border-color:var(--accent);box-shadow:0 0 14px rgba(226,137,44,.6)}
+.dim.lit-on .dimlist li:nth-child(2) i{transition-delay:.16s}
+.dim.lit-on .dimlist li:nth-child(3) i{transition-delay:.32s}
+@media (max-width:840px){.dim{grid-template-columns:1fr}}
+
+/* E. mnenja + google */
+.rev{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(20px,3vw,40px);margin-top:clamp(40px,5vw,64px);align-items:stretch}
+.quote{background:var(--ink);color:#EFEDE8;border-radius:22px;padding:clamp(30px,4vw,54px);
+  position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:center}
+.quote::before{content:"";position:absolute;right:-14%;top:-40%;width:60%;height:180%;pointer-events:none;
+  background:radial-gradient(closest-side,rgba(226,137,44,.3),transparent 70%);
+  animation:qglow 14s var(--ease-soft) -3s infinite alternate}
+@keyframes qglow{from{transform:translate3d(0,0,0) scale(1)}to{transform:translate3d(-5%,4%,0) scale(1.12)}}
+.quote blockquote{position:relative;font-family:"Bricolage Grotesque",sans-serif;font-weight:600;
+  font-size:clamp(1.3rem,2.5vw,1.95rem);line-height:1.22;letter-spacing:-.018em;max-width:22ch}
+.quote figcaption{position:relative;margin-top:24px;color:#B5B2AB;font-size:.95rem}
+.quote figcaption b{color:#EFEDE8;font-weight:500}
+.quote .src{display:block;margin-top:10px;font-family:"Martian Mono",monospace;font-size:10px;letter-spacing:.11em;
+  text-transform:uppercase;color:#8E8B84}
+.quote .src a{color:#C8C4BC}
+.gcard{background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:clamp(28px,4vw,48px);
+  box-shadow:0 30px 70px -48px rgba(22,24,26,.55);display:flex;flex-direction:column;justify-content:center}
+.gcard .kicker{display:flex;align-items:center;gap:10px;margin-bottom:18px}
+.gcard h3{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:clamp(1.4rem,2.4vw,1.9rem);line-height:1.1;letter-spacing:-.02em}
+.gcard p{color:var(--ink-2);margin-top:14px;max-width:38ch}
+.stars{display:flex;gap:6px;margin:24px 0 22px}
+.stars a{display:block;width:44px;height:44px;color:var(--line);transition:color .25s var(--ease),transform .35s var(--ease)}
+.stars a svg{width:100%;height:100%;fill:currentColor}
+.stars a:hover,.stars a.on{color:var(--accent)}
+.stars a:hover{transform:translateY(-3px) scale(1.06)}
+.stars a:focus-visible{border-radius:8px}
+.gnote{font-size:.86rem;color:var(--ink-2);margin-top:14px}
+.glogo{width:18px;height:18px;flex:none}
+@media (max-width:840px){.rev{grid-template-columns:1fr}}
+
+/* F. faq */
+.faq{max-width:920px;margin:clamp(40px,5vw,64px) 0 0;border-top:1px solid var(--line)}
+.qa{border-bottom:1px solid var(--line)}
+.qa button{width:100%;display:flex;align-items:baseline;gap:16px;background:none;border:0;cursor:pointer;
+  padding:24px 0;text-align:left;font-family:"Bricolage Grotesque",sans-serif;font-weight:600;
+  font-size:clamp(1.02rem,1.6vw,1.2rem);color:var(--ink);letter-spacing:-.008em;line-height:1.3}
+.qa button:hover{color:var(--accent-deep)}
+.qa .sign{margin-left:auto;flex:none;width:15px;height:15px;position:relative;align-self:center}
+.qa .sign::before,.qa .sign::after{content:"";position:absolute;background:var(--ink-2);
+  transition:transform .5s var(--ease),background-color .3s var(--ease)}
+.qa .sign::before{left:0;top:6.5px;width:15px;height:2px}
+.qa .sign::after{left:6.5px;top:0;width:2px;height:15px}
+.qa[data-open="1"] .sign::after{transform:scaleY(0)}
+.qa[data-open="1"] .sign::before{background:var(--accent)}
+.qa .panel{display:grid;grid-template-rows:0fr;transition:grid-template-rows .55s var(--ease)}
+.qa[data-open="1"] .panel{grid-template-rows:1fr}
+.qa .panel>div{overflow:hidden}
+.qa .panel p{color:var(--ink-2);padding-bottom:26px;max-width:62ch}
+
+/* G. contact */
+.contact{background:var(--canvas-2);border-top:1px solid var(--line)}
+.ct{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(30px,5vw,72px);align-items:start}
+.ctcard{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:clamp(24px,3vw,36px);
+  box-shadow:0 26px 60px -46px rgba(22,24,26,.55)}
+.bigcall{display:inline-flex;align-items:center;gap:14px;font-family:"Bricolage Grotesque",sans-serif;
+  font-weight:700;font-size:clamp(1.6rem,3.6vw,2.5rem);letter-spacing:-.02em;text-decoration:none;color:var(--ink);
+  margin:20px 0 6px;transition:color .3s var(--ease)}
+.bigcall:hover{color:var(--accent-deep)}
+.bigcall .ic{width:44px;height:44px;border-radius:13px;background:var(--ink);display:grid;place-items:center;flex:none;
+  transition:transform .5s var(--ease),box-shadow .5s var(--ease)}
+.bigcall:hover .ic{transform:translateY(-2px);box-shadow:0 14px 30px -14px rgba(226,137,44,.9)}
+.bigcall .ic svg{width:20px;height:20px;stroke:var(--paper);fill:none;stroke-width:1.8}
+.ctinfo{margin-top:30px;display:grid;gap:14px;border-top:1px solid var(--line);padding-top:24px}
+.ctinfo div{display:flex;gap:14px;font-size:.96rem;color:var(--ink-2)}
+.ctinfo dt{font-family:"Martian Mono",monospace;font-size:10px;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--ink-3);width:96px;flex:none;padding-top:.35em}
+.ctinfo a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line);transition:border-color .3s var(--ease)}
+.ctinfo a:hover{border-color:var(--accent)}
+.ctfig{margin-top:30px;position:relative;border-radius:16px;overflow:hidden;background:var(--canvas)}
+.ctfig img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.ctfig figcaption{position:absolute;left:0;right:0;bottom:0;padding:30px 16px 13px;color:#F6F4F0;font-size:.85rem;
+  background:linear-gradient(to top,rgba(14,16,17,.7),rgba(14,16,17,0))}
+.ctfig::after{content:"";position:absolute;inset:0;border-radius:16px;pointer-events:none;box-shadow:inset 0 0 0 1px rgba(22,24,26,.1)}
+.f-row{display:grid;gap:6px;margin-bottom:16px}
+.f-row label{font-family:"Martian Mono",monospace;font-size:10px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-2)}
+.f-row input,.f-row textarea{font-family:"Instrument Sans",sans-serif;font-size:1rem;color:var(--ink);
+  background:var(--canvas);border:1px solid rgba(22,24,26,.22);border-radius:11px;padding:13px 14px;width:100%;
+  transition:border-color .3s var(--ease),background-color .3s var(--ease)}
+.f-row textarea{min-height:118px;resize:vertical}
+.f-row input:focus,.f-row textarea:focus{border-color:var(--ink);background:var(--paper);outline:none}
+.f-note{font-size:.86rem;color:var(--ink-2);margin-top:14px}
+.f-ok{display:none;align-items:flex-start;gap:12px;margin-top:16px;padding:15px 16px;border-radius:12px;
+  background:rgba(226,137,44,.11);border:1px solid rgba(226,137,44,.34);font-size:.92rem;color:var(--ink)}
+.f-ok.show{display:flex}
+@media (max-width:840px){.ct{grid-template-columns:1fr}}
+
+/* footer */
+.foot{border-top:1px solid var(--line);padding:clamp(44px,6vw,72px) 0 40px;font-size:.9rem;color:var(--ink-2)}
+.footgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px}
+.foot h4{font-family:"Martian Mono",monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:400;margin:0 0 14px}
+.foot a{color:var(--ink-2);text-decoration:none;transition:color .3s var(--ease)}
+.foot a:hover{color:var(--accent-deep)}
+.foot li{margin-bottom:8px}
+.footbase{margin-top:44px;padding-top:22px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:12px;
+  justify-content:space-between;font-size:.83rem;color:var(--ink-3)}
+@media (max-width:760px){.footgrid{grid-template-columns:1fr;gap:26px}}
+
+/* ============ reduced motion ============ */
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;transition-delay:0s!important}
+  [data-rv]>*,.hero-copy>*,.hero-main,.hero-second{opacity:1!important;transform:none!important}
+  .rail-fill{transform:scaleY(1)!important}
+  .dimstage .dark{opacity:0!important}
+  .dimstage .warm{opacity:.55!important}
+  .holdbtn .fillbar{transform:scaleX(1)!important}
+}
+body.paused *,body.paused *::before,body.paused *::after{animation-play-state:paused!important}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skoči na vsebino</a>
+
+<nav class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="Meštrić, začetek strani">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#16181A"/><path d="M16 6.5v8.6" stroke="#F1F0EC" stroke-width="2.6" stroke-linecap="round"/><circle cx="16" cy="22" r="3.6" fill="#E2892C"/></svg>
+    <span><b>MEŠTRIĆ</b><span>Elektro, plesk in zaključna dela</span></span>
+  </a>
+  <div class="navlinks">
+    <a href="#delo">Delo</a>
+    <a href="#dela">Galerija</a>
+    <a href="#onas">O nas</a>
+    <a href="#potek">Potek</a>
+    <a href="#mnenja">Mnenja</a>
+    <a href="#vprasanja">Vprašanja</a>
+  </div>
+  <a class="btn btn--go navcall" href="tel:+38670197107" aria-label="Pokličite 070 197 107">
+    <i class="dot" aria-hidden="true"></i>
+    <svg class="ic-phone" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h3l1.4 4-2 1.4a13 13 0 0 0 6.1 6.1l1.4-2 4 1.4v3a2 2 0 0 1-2.2 2A17.5 17.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z" stroke-linejoin="round"/></svg>
+    <span>070 197 107</span>
+  </a>
+</nav>
+
+<div id="top"></div>
+
+<main id="main" tabindex="-1">
+
+<!-- hero -->
+<header class="hero" id="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="kicker"><i></i>Brežice in okolica · od 2022</p>
+      <h1>Tri obrti. En mojster.</h1>
+      <p class="lede">Elektroinštalacije, pleskarstvo in zaključna dela. Od žice v steni do zadnjega silikona, vse pod eno streho in z eno ceno.</p>
+      <div class="cta">
+        <a class="btn btn--go" href="tel:+38670197107"><i class="dot" aria-hidden="true"></i>Pokličite 070 197 107</a>
+        <a class="btn btn--ghost" href="#dela">Poglejte dela</a>
+      </div>
+      <ul class="facts" aria-label="Tri obrti">
+        <li><i aria-hidden="true"></i>Elektrika</li>
+        <li><i aria-hidden="true"></i>Pleskanje</li>
+        <li><i aria-hidden="true"></i>Zaključna dela</li>
+      </ul>
+    </div>
+    <div class="hero-art" aria-label="Fotografiji njegovega dela">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <figure class="hero-main hero-parallax" data-px="-38">
+        <img src="assets/hero-main.jpg" width="1200" height="1600" alt="Hrastove stopnice ob leseni oblogi, s stikalom na steni in črno kovinsko ograjo" fetchpriority="high">
+        <figcaption class="hero-plate"><i aria-hidden="true"></i>Stopnice, obloga, stikala</figcaption>
+      </figure>
+      <figure class="hero-second hero-parallax" data-px="30">
+        <img src="assets/hero-second.jpg" width="900" height="1200" loading="lazy" decoding="async" alt="Dokončana kopalnica s keramiko velikega formata in okroglim ogledalom">
+      </figure>
+    </div>
+  </div>
+</header>
+
+<!-- trust strip -->
+<section class="trust" aria-label="Na kratko">
+  <div class="wrap">
+    <div><b>Od leta 2022</b><span>Samostojni podjetnik iz Brežic</span></div>
+    <div><b>Isti človek</b><span>Elektrika, barva in zaključek pod eno streho</span></div>
+    <div><b>Kje delam</b><span>Brežice in Posavje, za večja dela po Sloveniji</span></div>
+    <div><b>Cena vnaprej</b><span>Ponudba po postavkah, preden se delo začne</span></div>
+  </div>
+</section>
+
+<div class="railwrap" id="railwrap">
+  <div class="rail" id="rail" aria-hidden="true">
+    <div class="rail-track"></div>
+    <div class="rail-fill" id="railFill"></div>
+    <div class="rail-head" id="railHead"></div>
+  </div>
+
+  <!-- A -->
+  <section class="sec" id="delo">
+    <div class="wrap">
+      <div class="sechead" data-rv>
+        <p class="kicker">Kaj delam</p>
+        <h2 class="dsp">Tri obrti, ki se med sabo držijo</h2>
+        <p class="lede">Pri prenovi se največ napak zgodi na stiku med obrtniki. Kdo je pustil luknjo, kdo jo mora zapreti, kdo je zamudil. Pri meni tega stika ni, ker vse tri sloje prevzamem sam.</p>
+      </div>
+
+      <div class="layer" data-rv>
+        <figure class="layer-fig">
+          <img src="assets/delo-elektrika.jpg" width="1500" height="1000" loading="lazy" decoding="async"
+               alt="Stikalo na leseni oblogi ob hrastovih stopnicah">
+        </figure>
+        <div>
+          <p class="layer-num">01</p>
+          <h3 class="dsp">Elektroinštalacije</h3>
+          <p>Nova napeljava in obnova stare. Razdelilne omarice, vtičnice in stikala tam, kjer jih res rabite. Razsvetljava, LED trakovi, osvetlitev stopnic.</p>
+          <div class="taglist"><span>Nova napeljava</span><span>Obnova stare</span><span>Razsvetljava</span><span>LED trakovi</span></div>
+        </div>
+      </div>
+
+      <div class="layer flip" data-rv>
+        <figure class="layer-fig">
+          <img src="assets/delo-barva.jpg" width="1500" height="1000" loading="lazy" decoding="async"
+               alt="Sveže pobarvane stene in strop ob hrastovem stopnišču">
+        </figure>
+        <div>
+          <p class="layer-num">02</p>
+          <h3 class="dsp">Pleskarstvo in dekorativna dela</h3>
+          <p>Priprava podlage, kitanje, brušenje. Barvanje sten in stropov, barvanje lesa in kovine. Dekorativni nanosi, če jih želite.</p>
+          <div class="taglist"><span>Kitanje</span><span>Brušenje</span><span>Stene in stropi</span><span>Les in kovina</span></div>
+        </div>
+      </div>
+
+      <div class="layer" data-rv>
+        <figure class="layer-fig">
+          <img src="assets/delo-zakljucna.jpg" width="1500" height="1000" loading="lazy" decoding="async"
+               alt="Dokončana kopalnica z odprtim tušem in lučjo nad ogledalom">
+        </figure>
+        <div>
+          <p class="layer-num">03</p>
+          <h3 class="dsp">Zaključna dela</h3>
+          <p>Keramika, laminat, vinil. Adaptacije kopalnic, stanovanj in mansard. Hidroizolacija kleti in temeljev.</p>
+          <div class="taglist"><span>Keramika</span><span>Laminat in vinil</span><span>Kopalnice</span><span>Hidroizolacija</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- D -->
+  <section class="sec" id="dela">
+    <div class="wrap">
+      <div class="sechead" data-rv>
+        <p class="kicker">Galerija</p>
+        <h2 class="dsp">Iz njegovih projektov</h2>
+        <p class="lede">Vse fotografije so z njegovih gradbišč. Kliknite za povečavo.</p>
+      </div>
+      <div class="grid" data-rv id="gal">
+        <button class="gitem" type="button"><figure><img src="assets/gal-443.jpg" width="1100" height="1466" loading="lazy" decoding="async" alt="Stara lesena obloga, nove hrastove stopnice in stikalo na steni"><figcaption>Stara lesena obloga, nove stopnice, stikalo na dosegu.</figcaption></figure></button>
+        <button class="gitem" type="button"><figure><img src="assets/gal-441.jpg" width="1100" height="1466" loading="lazy" decoding="async" alt="Kopalnica s keramiko velikega formata, okroglim ogledalom in lebdečim umivalnikom"><figcaption>Kopalnica s keramiko velikega formata.</figcaption></figure></button>
+        <button class="gitem" type="button"><figure><img src="assets/gal-440.jpg" width="1100" height="1466" loading="lazy" decoding="async" alt="Hrastovo stopnišče s črno kovinsko ograjo in vgradnima lučkama v steni"><figcaption>Stopnišče iz hrasta in kovine, vgradni luči v steni.</figcaption></figure></button>
+        <button class="gitem" type="button"><figure><img src="assets/gal-445.jpg" width="1100" height="1466" loading="lazy" decoding="async" alt="Kopalnica z odprtim tušem in svetilko nad ogledalom"><figcaption>Kopalnica z odprtim tušem in lučjo nad ogledalom.</figcaption></figure></button>
+        <button class="gitem" type="button"><figure><img src="assets/gal-444.jpg" width="1100" height="1466" loading="lazy" decoding="async" alt="Kopalnica s tuš kabino in osvetljeno omarico z ogledalom"><figcaption>Kopalnica s tuš kabino in osvetljeno omarico.</figcaption></figure></button>
+        <button class="gitem" type="button"><figure><img src="assets/gal-442.jpg" width="1100" height="1466" loading="lazy" decoding="async" alt="Notranjost hiše s hrastovimi stopnicami, osvetlitvijo stopnic in stropno svetilko"><figcaption>Notranjost s hrastovimi stopnicami in osvetlitvijo.</figcaption></figure></button>
+        <button class="gitem" type="button"><figure><img src="assets/gal-446.jpg" width="1100" height="1466" loading="lazy" decoding="async" alt="Ozka kopalnica z osvetljenim ogledalom in hrastovo omarico"><figcaption>Ozka kopalnica z osvetljenim ogledalom.</figcaption></figure></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- O nas -->
+  <section class="sec onas" id="onas">
+    <div class="wrap onas-grid" data-rv>
+      <figure class="onas-fig">
+        <img src="assets/onas.jpg" width="1100" height="1466" loading="lazy" decoding="async"
+             alt="Ozka kopalnica z osvetljenim ogledalom, hrastovo omarico in keramiko s cvetličnim vzorcem">
+        <figcaption>Kopalnica, kjer so bili elektrika, keramika in zaključek narejeni v enem kosu.</figcaption>
+      </figure>
+      <div class="onas-copy">
+        <p class="kicker">O nas</p>
+        <h2 class="dsp">Kdo je za tem</h2>
+        <p class="big">Damir Meštrić, elektrikar, pleskar in izvajalec zaključnih del iz Brežic.</p>
+        <p>Samostojni podjetnik od junija 2022. Elektroinštalacije, pleskarska dela in zaključna dela prevzamem pod eno streho, zato na vašem gradbišču ni predajanja med obrtniki. Tisti, ki napelje žice, ve, kje bo stikalo, in tisti, ki polaga keramiko, ve, kje je napeljava.</p>
+        <p>Največ delam za ljudi, ki prenavljajo kopalnico, stanovanje ali mansardo in nočejo usklajevati petih telefonskih številk. Pridem pogledat, povem, kaj se da, in napišem ceno po postavkah.</p>
+        <dl class="onas-facts">
+          <div><dt>Podjetje</dt><dd>Elektro, pleskarska in zaključna dela, Damir Meštrić s.p.</dd></div>
+          <div><dt>Registracija</dt><dd>23. junij 2022, Brežice</dd></div>
+          <div><dt>Dejavnost</dt><dd>43.210 elektroinštalacije, pleskarstvo, zaključna dela</dd></div>
+          <div><dt>Območje</dt><dd>Brežice in Posavje, za večja dela po Sloveniji</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- B -->
+  <section class="sec" id="potek">
+    <div class="wrap">
+      <div class="sechead" data-rv>
+        <p class="kicker">Kako poteka</p>
+        <h2 class="dsp">Štirje koraki, brez presenečenj</h2>
+      </div>
+      <div data-rv>
+        <div class="steps">
+          <div class="step"><b>01</b><h3>Pokličete</h3><p>Poveste, kaj potrebujete. Povem, ali je delo zame in kdaj lahko pridem.</p></div>
+          <div class="step"><b>02</b><h3>Ogled na naslovu</h3><p>Pridem pogledat prostor in obstoječo napeljavo. Brez ogleda ni poštene cene.</p></div>
+          <div class="step"><b>03</b><h3>Ponudba</h3><p>Cena po postavkah, preden se delo začne. Če se med delom kaj pokaže, se slišiva prej.</p></div>
+          <div class="step"><b>04</b><h3>Izvedba in predaja</h3><p>Delo pripeljem do konca in za sabo počistim.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- C -->
+  <section class="sec" id="svetloba">
+    <div class="wrap">
+      <div class="sechead" data-rv>
+        <p class="kicker">Svetloba</p>
+        <h2 class="dsp">Luč ni dodatek. Je zadnji sloj.</h2>
+        <p class="lede">Pridržite gumb in poglejte, kaj naredi svetloba, ki je vgrajena na pravo mesto.</p>
+      </div>
+      <div class="dim" id="dim" data-rv>
+        <div class="dimstage">
+          <img src="assets/svetloba.jpg" width="1400" height="1050" loading="lazy" decoding="async"
+               alt="Stopnišče z osvetljenimi stopnicami in stikalom na leseni oblogi">
+          <img class="dark" src="assets/svetloba.jpg" width="1400" height="1050" loading="lazy" decoding="async" alt="" aria-hidden="true">
+          <div class="warm" aria-hidden="true"></div>
+          <div class="plate"><i aria-hidden="true"></i><span id="dimPlate">Luč ugasnjena</span></div>
+        </div>
+        <div>
+          <button class="btn holdbtn" id="holdBtn" aria-describedby="holdHelp">
+            <span class="fillbar" aria-hidden="true"></span>
+            <span>Pridržite in prižgite</span>
+            <span class="pct" id="holdPct" aria-hidden="true">0 %</span>
+          </button>
+          <p class="f-note" id="holdHelp">Držite miško ali prst na gumbu. Na tipkovnici držite preslednico.</p>
+          <ul class="dimlist">
+            <li><i aria-hidden="true"></i>Osvetlitev stopnic, ki gori takrat, ko po njih hodite.</li>
+            <li><i aria-hidden="true"></i>Vgradne luči v steni namesto lestenca na sredini sobe.</li>
+            <li><i aria-hidden="true"></i>Stikalo tam, kjer roka pride do njega.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- E -->
+  <section class="sec" id="mnenja">
+    <div class="wrap">
+      <div class="sechead" data-rv>
+        <p class="kicker">Mnenja</p>
+        <h2 class="dsp">Kaj pravijo stranke</h2>
+        <p class="lede">Eno javno mnenje je že objavljeno. Če ste bili zadovoljni, lahko svoje pustite na Googlu.</p>
+      </div>
+      <div class="rev" data-rv>
+        <figure class="quote">
+          <blockquote>Vse je bilo hitro končano, naredili so tudi tisto, kar sem posebej prosila.</blockquote>
+          <figcaption><b>Ida M.</b>, pleskanje stanovanja, april 2024
+            <span class="src">Javno mnenje na <a href="https://www.mojmojster.net/izvajalec/elektro_pleskarska_in_zakljucna_dela_damir_mestric" target="_blank" rel="noopener">Mojmojster.net</a></span>
+          </figcaption>
+        </figure>
+        <div class="gcard" id="gcard">
+          <p class="kicker"><svg class="glogo" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M21.6 12.2c0-.7-.1-1.4-.2-2H12v3.9h5.4a4.6 4.6 0 0 1-2 3v2.5h3.2c1.9-1.7 3-4.3 3-7.4Z"/><path fill="#34A853" d="M12 22c2.7 0 5-.9 6.6-2.4l-3.2-2.5c-.9.6-2 1-3.4 1-2.6 0-4.8-1.8-5.6-4.1H3.1v2.6A10 10 0 0 0 12 22Z"/><path fill="#FBBC05" d="M6.4 14a6 6 0 0 1 0-3.9V7.5H3.1a10 10 0 0 0 0 9l3.3-2.5Z"/><path fill="#EA4335" d="M12 6c1.5 0 2.8.5 3.8 1.5l2.8-2.8A10 10 0 0 0 3.1 7.5L6.4 10C7.2 7.8 9.4 6 12 6Z"/></svg>Google ocena</p>
+          <h3>Ocenite naše delo</h3>
+          <p>Ste bili zadovoljni? Vaša ocena pomaga naslednjemu, ki išče mojstra v Brežicah. Vzame minuto.</p>
+          <div class="stars" aria-label="Izberite število zvezdic in napišite oceno">
+            <a class="greview" href="#" data-star="1" aria-label="1 zvezdica, napišite oceno"><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8L12 2.5z"/></svg></a>
+            <a class="greview" href="#" data-star="2" aria-label="2 zvezdici, napišite oceno"><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8L12 2.5z"/></svg></a>
+            <a class="greview" href="#" data-star="3" aria-label="3 zvezdice, napišite oceno"><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8L12 2.5z"/></svg></a>
+            <a class="greview" href="#" data-star="4" aria-label="4 zvezdice, napišite oceno"><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8L12 2.5z"/></svg></a>
+            <a class="greview" href="#" data-star="5" aria-label="5 zvezdic, napišite oceno"><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8L12 2.5z"/></svg></a>
+          </div>
+          <a class="btn btn--go greview" href="#" target="_blank" rel="noopener"><i class="dot" aria-hidden="true"></i>Napišite Google oceno</a>
+          <p class="gnote">Odpre se Google, kjer se prijavite s svojim računom in napišete oceno.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- F -->
+  <section class="sec" id="vprasanja">
+    <div class="wrap">
+      <div class="sechead" data-rv>
+        <p class="kicker">Pogosta vprašanja</p>
+        <h2 class="dsp">Kar ljudje vprašajo, preden pokličejo</h2>
+      </div>
+      <div class="faq" id="faq" data-rv>
+        <div class="qa" data-open="0">
+          <button type="button" aria-expanded="false">Koliko stane prenova kopalnice?<span class="sign" aria-hidden="true"></span></button>
+          <div class="panel"><div><p>Odvisno od kvadrature, materiala in stanja napeljave. Zato cene ne ugibam po telefonu. Pridem pogledat in dobite ceno po postavkah.</p></div></div>
+        </div>
+        <div class="qa" data-open="0">
+          <button type="button" aria-expanded="false">Ali cena drži?<span class="sign" aria-hidden="true"></span></button>
+          <div class="panel"><div><p>Kar je na ponudbi, to velja. Če se med rušenjem pokaže nekaj, česar prej ni bilo mogoče videti, se slišiva, preden nadaljujem.</p></div></div>
+        </div>
+        <div class="qa" data-open="0">
+          <button type="button" aria-expanded="false">Ali res vse naredite sami?<span class="sign" aria-hidden="true"></span></button>
+          <div class="panel"><div><p>Elektroinštalacije, pleskarska dela in zaključna dela prevzamem sam. Za vodovod, mizarstvo in podobno vam povem vnaprej, kaj bo treba urediti posebej.</p></div></div>
+        </div>
+        <div class="qa" data-open="0">
+          <button type="button" aria-expanded="false">Kje delate?<span class="sign" aria-hidden="true"></span></button>
+          <div class="panel"><div><p>Brežice in Posavje, za večja dela po vsej Sloveniji.</p></div></div>
+        </div>
+        <div class="qa" data-open="0">
+          <button type="button" aria-expanded="false">Ali izdate račun?<span class="sign" aria-hidden="true"></span></button>
+          <div class="panel"><div><p>Da. Nisem zavezanec za DDV, zato je na računu cena brez DDV.</p></div></div>
+        </div>
+        <div class="qa" data-open="0">
+          <button type="button" aria-expanded="false">Kdaj lahko pridete?<span class="sign" aria-hidden="true"></span></button>
+          <div class="panel"><div><p>Odvisno od tega, kaj je trenutno v delu. Pokličite in povejte, do kdaj bi radi imeli končano.</p></div></div>
+        </div>
+        <div class="qa" data-open="0">
+          <button type="button" aria-expanded="false">Kaj pa prah in nered?<span class="sign" aria-hidden="true"></span></button>
+          <div class="panel"><div><p>Prostor za sabo počistim. Prahu pri rezanju in vrtanju se ne da povsem izogniti, da pa se ga omejiti.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- G -->
+  <section class="sec contact" id="kontakt">
+    <div class="wrap">
+      <div class="sechead" data-rv>
+        <p class="kicker">Kontakt</p>
+        <h2 class="dsp">Povejte, kaj je treba narediti.</h2>
+        <p class="lede">Najhitreje me dobite po telefonu. Če raje pišete, mi pošljite nekaj vrstic in fotografijo prostora.</p>
+      </div>
+      <div class="ct" data-rv>
+        <div>
+          <a class="bigcall" href="tel:+38670197107">
+            <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6.6 3.5h3l1.4 4-2 1.4a13 13 0 0 0 6.1 6.1l1.4-2 4 1.4v3a2 2 0 0 1-2.2 2A17.5 17.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z" stroke-linejoin="round"/></svg></span>
+            070 197 107
+          </a>
+          <dl class="ctinfo">
+            <div><dt>E-pošta</dt><dd><a href="mailto:damir.mestric@gmail.com">damir.mestric@gmail.com</a></dd></div>
+            <div><dt>Naslov</dt><dd>Marof 20, 8250 Brežice</dd></div>
+            <div><dt>Delam v</dt><dd>Brežicah in Posavju, za večja dela po vsej Sloveniji</dd></div>
+            <div><dt>Podjetje</dt><dd>Elektro, pleskarska in zaključna dela, Damir Meštrić s.p.</dd></div>
+          </dl>
+          <figure class="ctfig">
+            <img src="assets/kontakt.jpg" width="1600" height="900" loading="lazy" decoding="async"
+                 alt="Dokončana kopalnica z lebdečim umivalnikom in keramiko velikega formata">
+            <figcaption>Tako izgleda, ko je zadnji sloj končan.</figcaption>
+          </figure>
+        </div>
+        <form class="ctcard" id="lead" novalidate>
+          <div class="f-row"><label for="f-ime">Ime</label><input id="f-ime" name="ime" type="text" autocomplete="name" required></div>
+          <div class="f-row"><label for="f-tel">Telefon</label><input id="f-tel" name="tel" type="tel" autocomplete="tel" required></div>
+          <div class="f-row"><label for="f-txt">Kaj potrebujete</label><textarea id="f-txt" name="txt" required></textarea></div>
+          <button class="btn btn--go" type="submit" style="width:100%"><i class="dot" aria-hidden="true"></i>Pripravi sporočilo</button>
+          <p class="f-note">Gumb odpre vaš e-poštni program z že vpisanim sporočilom na damir.mestric@gmail.com. Sporočilo pošljete sami, da ostane v vaši pošti.</p>
+          <p class="f-ok" id="fok" role="status"><span aria-hidden="true">✓</span><span>Sporočilo je pripravljeno v vašem e-poštnem programu. Če se ni odprl, pokličite na 070 197 107.</span></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="footgrid">
+      <div>
+        <h4>Podjetje</h4>
+        <p>Elektro, pleskarska in zaključna dela,<br>Damir Meštrić s.p.<br>Marof 20, 8250 Brežice</p>
+        <p style="margin-top:14px">Matična številka 9161180000<br>Davčna številka 95566414<br>Nisem zavezanec za DDV.</p>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="tel:+38670197107">070 197 107</a></li>
+          <li><a href="mailto:damir.mestric@gmail.com">damir.mestric@gmail.com</a></li>
+          <li><a class="greview" href="#" target="_blank" rel="noopener">Napišite Google oceno</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Na strani</h4>
+        <ul>
+          <li><a href="#delo">Kaj delam</a></li>
+          <li><a href="#dela">Galerija</a></li>
+          <li><a href="#onas">O nas</a></li>
+          <li><a href="#potek">Kako poteka</a></li>
+          <li><a href="#mnenja">Mnenja</a></li>
+          <li><a href="#vprasanja">Pogosta vprašanja</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footbase">
+      <span>© <span id="yr">2026</span> Damir Meštrić s.p.</span>
+      <span>Fotografije so posnetki lastnih del.</span>
+    </div>
+  </div>
+</footer>
+</main>
+
+<dialog class="lb" id="lb" aria-label="Povečana fotografija">
+  <div class="lb-in">
+    <img id="lbImg" src="" alt="">
+    <p class="lb-cap" id="lbCap"></p>
+    <div class="lb-bar">
+      <button type="button" id="lbPrev">Prejšnja</button>
+      <button type="button" id="lbNext">Naslednja</button>
+      <button type="button" id="lbClose">Zapri</button>
+    </div>
+  </div>
+</dialog>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Electrician",
+"name":"Elektro, pleskarska in zaključna dela, Damir Meštrić s.p.",
+"alternateName":"Damir Meštrić s.p.",
+"description":"Elektroinštalacije, razsvetljava, pleskarska in zaključna dela. Adaptacije kopalnic, stanovanj in mansard.",
+"telephone":"+386 70 197 107","email":"damir.mestric@gmail.com",
+"foundingDate":"2022-06-23","taxID":"95566414","identifier":"9161180000",
+"address":{"@type":"PostalAddress","streetAddress":"Marof 20","addressLocality":"Brežice","postalCode":"8250","addressCountry":"SI"},
+"areaServed":[{"@type":"City","name":"Brežice"},{"@type":"AdministrativeArea","name":"Posavje"},{"@type":"Country","name":"Slovenija"}],
+"knowsLanguage":"sl",
+"makesOffer":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Elektroinštalacije"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Razsvetljava"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Pleskarska in dekorativna dela"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Adaptacije kopalnic"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Keramičarska dela"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Hidroizolacija kleti in temeljev"}}]}
+</script>
+
+<script>
+(function(){
+"use strict";
+
+/* =====================================================================
+   GOOGLE OCENA: tukaj vpišete pravo povezavo, ko bo Google poslovni
+   profil narejen. Oblika: https://search.google.com/local/writereview?placeid=VAŠ_PLACE_ID
+   Dokler je profil ni, gumb odpre Google Zemljevide z iskanjem podjetja.
+   ===================================================================== */
+var GOOGLE_REVIEW_URL='https://www.google.com/maps/search/?api=1&query='+
+  encodeURIComponent('Elektro, pleskarska in zaključna dela Damir Meštrić s.p., Marof 20, 8250 Brežice');
+
+var $=function(s,r){return (r||document).querySelector(s)};
+var $$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+var clamp=function(v,lo,hi){return Math.min(hi,Math.max(lo,v))};
+var rmq=window.matchMedia('(prefers-reduced-motion: reduce)');
+
+if('scrollRestoration' in history)history.scrollRestoration='manual';
+$('#yr').textContent=new Date().getFullYear();
+
+/* ---------- google review links + star hover ---------- */
+$$('.greview').forEach(function(a){a.href=GOOGLE_REVIEW_URL;a.target='_blank';a.rel='noopener'});
+var stars=$$('.stars a');
+stars.forEach(function(s,i){
+  s.addEventListener('mouseenter',function(){stars.forEach(function(x,j){x.classList.toggle('on',j<=i)})});
+  s.addEventListener('focus',function(){stars.forEach(function(x,j){x.classList.toggle('on',j<=i)})});
+});
+var starsBox=$('.stars');
+if(starsBox){
+  starsBox.addEventListener('mouseleave',function(){stars.forEach(function(x){x.classList.remove('on')})});
+  starsBox.addEventListener('focusout',function(){stars.forEach(function(x){x.classList.remove('on')})});
+}
+
+/* ---------- hero: entrance + parallax ---------- */
+var hero=$('#hero');
+requestAnimationFrame(function(){requestAnimationFrame(function(){hero.classList.add('in')})});
+var px=$$('.hero-parallax').map(function(el){return {el:el,k:+el.getAttribute('data-px')||0,last:null}});
+function heroParallax(){
+  if(rmq.matches)return;
+  var h=hero.offsetHeight||1;
+  var p=clamp(window.scrollY/h,0,1.2);
+  px.forEach(function(o){
+    var y=Math.round(o.k*p*10)/10;
+    if(o.last===y)return;o.last=y;
+    o.el.style.transform='translateY('+y+'px)';
+  });
+}
+
+/* ---------- reveals ---------- */
+var revealed=[];
+if('IntersectionObserver' in window){
+  var ro=new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(!e.isIntersecting)return;
+      var el=e.target;el.classList.add('in');ro.unobserve(el);
+      var n=el.children.length;
+      setTimeout(function(){el.classList.add('rvdone')},900+n*78);
+    });
+  },{rootMargin:'0px 0px -12% 0px',threshold:.08});
+  $$('[data-rv]').forEach(function(el){
+    Array.prototype.forEach.call(el.children,function(c,i){c.style.setProperty('--i',i)});
+    ro.observe(el);revealed.push(el);
+  });
+}else{
+  $$('[data-rv]').forEach(function(el){el.classList.add('in','rvdone')});
+}
+
+/* ---------- the light line ---------- */
+var railwrap=$('#railwrap'),rail=$('#rail'),railFill=$('#railFill'),railHead=$('#railHead');
+var nodeSecs=['#delo','#dela','#onas','#potek','#svetloba','#mnenja','#vprasanja','#kontakt'];
+var nodes=[],nodeObs=null;
+function buildNodes(){
+  if(nodeObs){nodeObs.disconnect()}
+  nodes.forEach(function(n){n.el.remove()});nodes=[];
+  var top0=railwrap.getBoundingClientRect().top+window.scrollY;
+  nodeSecs.forEach(function(sel){
+    var sec=$(sel);if(!sec)return;
+    var y=sec.getBoundingClientRect().top+window.scrollY-top0+Math.min(120,sec.offsetHeight*0.16);
+    var d=document.createElement('span');d.className='node';d.style.top=Math.round(y)+'px';
+    d.appendChild(document.createElement('b'));
+    rail.appendChild(d);nodes.push({el:d,sec:sec});
+  });
+  if('IntersectionObserver' in window){
+    nodeObs=new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        var m=nodes.filter(function(n){return n.sec===e.target})[0];
+        if(m)m.el.classList.toggle('lit',e.isIntersecting);
+      });
+    },{rootMargin:'-22% 0px -50% 0px'});
+    nodes.forEach(function(n){nodeObs.observe(n.sec)});
+  }
+}
+/* the line eases toward the scroll position in a rAF loop that rests when it arrives,
+   so it glides instead of stepping */
+var railH=1,railTarget=0,railShown=0,railRaf=null,railLast=0,headVis=null,lastFill=-1;
+function applyRail(p){
+  railFill.style.transform='scaleY('+p.toFixed(5)+')';
+  railHead.style.transform='translateY('+(p*railH).toFixed(1)+'px)';
+  var vis=p>0.003&&p<0.997;
+  if(vis!==headVis){headVis=vis;railHead.classList.toggle('off',!vis)}
+}
+function railTick(now){
+  var dt=Math.min(100,now-(railLast||now));railLast=now;
+  railShown+=(railTarget-railShown)*(1-Math.pow(1-0.2,dt/16.667));
+  if(Math.abs(railTarget-railShown)<0.00004){railShown=railTarget;railRaf=null;railLast=0}
+  else{railRaf=requestAnimationFrame(railTick)}
+  applyRail(railShown);
+}
+function drawRail(){
+  var r=railwrap.getBoundingClientRect();
+  railH=railwrap.offsetHeight||1;
+  railTarget=clamp((window.innerHeight*0.62-r.top)/railH,0,1);
+  if(lastFill<0){lastFill=0;railShown=railTarget;applyRail(railShown);return}
+  if(railRaf===null)railRaf=requestAnimationFrame(railTick);
+}
+var ticking=false;
+function onPageScroll(){
+  if(ticking)return;ticking=true;
+  requestAnimationFrame(function(){ticking=false;drawRail();navState();heroParallax()});
+}
+window.addEventListener('scroll',onPageScroll,{passive:true});
+
+/* ---------- nav ---------- */
+var nav=$('#nav'),navSolid=false;
+function navState(){
+  var s=window.scrollY>60;
+  if(s!==navSolid){navSolid=s;nav.classList.toggle('solid',s)}
+}
+
+/* ---------- the dimmer ---------- */
+var dim=$('#dim'),holdBtn=$('#holdBtn'),holdPct=$('#holdPct'),dimPlate=$('#dimPlate');
+var dp=0,dpShown=-1,holding=false,dimRaf=null,dimLast=0,dimDone=false;
+function dimWrite(){
+  if(Math.abs(dp-dpShown)<0.01&&dp!==1&&dp!==0)return;
+  dpShown=dp;
+  dim.style.setProperty('--p',dp.toFixed(3));
+  holdPct.textContent=Math.round(dp*100)+' %';
+  if(dp>=1&&!dimDone){dimDone=true;dim.classList.add('lit-on');dimPlate.textContent='Luč prižgana';
+    holdBtn.querySelector('span:nth-child(2)').textContent='Prižgano';}
+}
+function dimTick(now){
+  var dt=Math.min(64,now-(dimLast||now));dimLast=now;
+  dp=clamp(dp+(holding?dt/1300:-dt/900),0,1);
+  dimWrite();
+  if((holding&&dp<1)||(!holding&&dp>0)){dimRaf=requestAnimationFrame(dimTick)}
+  else{dimRaf=null;dimLast=0}
+}
+function dimStart(e){if(dimDone)return;if(e&&e.cancelable)e.preventDefault();holding=true;if(dimRaf===null)dimRaf=requestAnimationFrame(dimTick)}
+function dimStop(){holding=false;if(dimRaf===null&&dp>0)dimRaf=requestAnimationFrame(dimTick)}
+if(holdBtn){
+  holdBtn.addEventListener('pointerdown',dimStart);
+  window.addEventListener('pointerup',dimStop);
+  window.addEventListener('pointercancel',dimStop);
+  holdBtn.addEventListener('keydown',function(e){if(e.key===' '||e.key==='Enter'){e.preventDefault();dimStart()}});
+  holdBtn.addEventListener('keyup',function(e){if(e.key===' '||e.key==='Enter'){dimStop()}});
+  holdBtn.addEventListener('blur',dimStop);
+}
+
+/* ---------- faq ---------- */
+$$('#faq .qa').forEach(function(qa){
+  var btn=qa.querySelector('button');
+  btn.addEventListener('click',function(){
+    var open=qa.getAttribute('data-open')==='1';
+    qa.setAttribute('data-open',open?'0':'1');
+    btn.setAttribute('aria-expanded',open?'false':'true');
+  });
+});
+
+/* ---------- gallery lightbox ---------- */
+var lb=$('#lb'),lbImg=$('#lbImg'),lbCap=$('#lbCap'),items=$$('#gal .gitem'),cur=0;
+function showLb(i){
+  cur=(i+items.length)%items.length;
+  var im=items[cur].querySelector('img');
+  lbImg.src=im.getAttribute('src');lbImg.alt=im.getAttribute('alt');
+  lbCap.textContent=items[cur].querySelector('figcaption').textContent;
+}
+items.forEach(function(b,i){
+  b.addEventListener('click',function(){
+    showLb(i);
+    if(typeof lb.showModal==='function')lb.showModal();
+  });
+});
+$('#lbNext').addEventListener('click',function(){showLb(cur+1)});
+$('#lbPrev').addEventListener('click',function(){showLb(cur-1)});
+$('#lbClose').addEventListener('click',function(){lb.close()});
+lb.addEventListener('keydown',function(e){
+  if(e.key==='ArrowRight')showLb(cur+1);
+  if(e.key==='ArrowLeft')showLb(cur-1);
+});
+lb.addEventListener('click',function(e){if(e.target===lb)lb.close()});
+lb.addEventListener('close',function(){if(items[cur])items[cur].focus()});
+
+/* ---------- lead form, mailto ---------- */
+var lead=$('#lead');
+lead.addEventListener('submit',function(e){
+  e.preventDefault();
+  var ime=lead.ime.value.trim(),tel=lead.tel.value.trim(),txt=lead.txt.value.trim();
+  if(!ime||!tel||!txt){
+    [lead.ime,lead.tel,lead.txt].forEach(function(f){if(!f.value.trim())f.style.borderColor='#9C520F'});
+    return;
+  }
+  var body='Ime: '+ime+'\nTelefon: '+tel+'\n\n'+txt+'\n';
+  window.location.href='mailto:damir.mestric@gmail.com?subject='+
+    encodeURIComponent('Povpraševanje s spletne strani')+'&body='+encodeURIComponent(body);
+  $('#fok').classList.add('show');
+});
+[lead.ime,lead.tel,lead.txt].forEach(function(f){
+  f.addEventListener('input',function(){f.style.borderColor=''});
+});
+
+/* ---------- reduced motion, live in both directions ---------- */
+var pinned=false;
+function pinToFinalStates(){
+  pinned=true;
+  if(railRaf!==null){cancelAnimationFrame(railRaf);railRaf=null}railShown=1;railFill.style.transform='scaleY(1)';railHead.classList.add('off');headVis=false;
+  nodes.forEach(function(n){n.el.classList.add('lit')});
+  revealed.forEach(function(el){el.classList.add('in','rvdone')});
+  px.forEach(function(o){o.el.style.transform='';o.last=null});
+  holding=false;if(dimRaf!==null){cancelAnimationFrame(dimRaf);dimRaf=null}
+  dp=1;dimWrite();
+  window.removeEventListener('scroll',onPageScroll);
+}
+function unpinFinalStates(){
+  if(!pinned)return;pinned=false;
+  lastFill=-1;drawRail();heroParallax();
+  window.addEventListener('scroll',onPageScroll,{passive:true});
+}
+function rmHandler(e){if(e.matches)pinToFinalStates();else unpinFinalStates()}
+if(rmq.addEventListener)rmq.addEventListener('change',rmHandler);
+else if(rmq.addListener)rmq.addListener(rmHandler);
+
+/* ---------- pause everything on a hidden tab ---------- */
+document.addEventListener('visibilitychange',function(){
+  document.body.classList.toggle('paused',document.hidden);
+});
+
+/* ---------- boot ---------- */
+function layout(){buildNodes();lastFill=-1;drawRail();heroParallax()}
+window.addEventListener('resize',function(){
+  clearTimeout(window.__rz);window.__rz=setTimeout(layout,180);
+});
+window.addEventListener('load',layout);
+layout();
+navState();
+if(rmq.matches)pinToFinalStates();
+})();
+</script>
+</body>
+</html>
