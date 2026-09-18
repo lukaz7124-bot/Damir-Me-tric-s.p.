@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Meštrić, Brežice | Elektroinštalacije, pleskarstvo in zaključna dela</title>
-<meta name="description" content="Damir Meštrić s.p. iz Brežic. Elektroinštalacije, razsvetljava, pleskarska in zaključna dela. Adaptacije kopalnic, stanovanj in mansard. Pokličite 070 197 107.">
+<meta name="description" content="Damir Meštrić s.p. iz Brežic. Elektroinštalacije, razsvetljava, pleskarska in zaključna dela, knauf. Adaptacije kopalnic, stanovanj, mansard in celih hiš. Pokličite 070 712 665.">
 <meta name="theme-color" content="#F1F0EC">
 <meta name="author" content="Elektro, pleskarska in zaključna dela, Damir Meštrić s.p.">
 <link rel="canonical" href="https://example.si/"><!-- DEPLOY STEP: absolute live URL -->
@@ -203,7 +203,7 @@ section{position:relative}
 .layer.flip .layer-fig{order:2}
 .layer-fig{position:relative;border-radius:18px;overflow:hidden;background:var(--canvas-2);
   box-shadow:0 30px 70px -44px rgba(22,24,26,.6)}
-.layer-fig img{width:100%;aspect-ratio:3/2;object-fit:cover;transition:transform 1.2s var(--ease)}
+.layer-fig img{width:100%;height:auto;transition:transform 1.2s var(--ease)}
 .layer:hover .layer-fig img{transform:scale(1.035)}
 .layer-fig::after{content:"";position:absolute;inset:0;pointer-events:none;
   box-shadow:inset 0 0 0 1px rgba(22,24,26,.09);border-radius:18px}
@@ -213,6 +213,9 @@ section{position:relative}
 .layer .taglist{display:flex;flex-wrap:wrap;gap:7px;margin-top:20px}
 .taglist span{font-family:"Martian Mono",monospace;font-size:10px;letter-spacing:.07em;text-transform:uppercase;
   color:var(--ink-2);border:1px solid var(--line);border-radius:99px;padding:6px 11px;background:rgba(250,249,246,.5)}
+.layer.adapt{background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:clamp(18px,2.6vw,36px);
+  box-shadow:0 30px 70px -48px rgba(22,24,26,.5)}
+.layer.adapt .layer-fig,.layer.adapt .layer-fig::after{border-radius:14px}
 @media (max-width:840px){.layer{grid-template-columns:1fr}.layer.flip .layer-fig{order:0}}
 
 /* D. gallery */
@@ -432,10 +435,10 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
     <a href="#mnenja">Mnenja</a>
     <a href="#vprasanja">Vprašanja</a>
   </div>
-  <a class="btn btn--go navcall" href="tel:+38670197107" aria-label="Pokličite 070 197 107">
+  <a class="btn btn--go navcall" href="tel:+38670712665" aria-label="Pokličite 070 712 665">
     <i class="dot" aria-hidden="true"></i>
     <svg class="ic-phone" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h3l1.4 4-2 1.4a13 13 0 0 0 6.1 6.1l1.4-2 4 1.4v3a2 2 0 0 1-2.2 2A17.5 17.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z" stroke-linejoin="round"/></svg>
-    <span>070 197 107</span>
+    <span>070 712 665</span>
   </a>
 </nav>
 
@@ -451,7 +454,7 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
       <h1>Tri obrti. En mojster.</h1>
       <p class="lede">Elektroinštalacije, pleskarstvo in zaključna dela. Od žice v steni do zadnjega silikona, vse pod eno streho in z eno ceno.</p>
       <div class="cta">
-        <a class="btn btn--go" href="tel:+38670197107"><i class="dot" aria-hidden="true"></i>Pokličite 070 197 107</a>
+        <a class="btn btn--go" href="tel:+38670712665"><i class="dot" aria-hidden="true"></i>Pokličite 070 712 665</a>
         <a class="btn btn--ghost" href="#dela">Poglejte dela</a>
       </div>
       <ul class="facts" aria-label="Tri obrti">
@@ -460,7 +463,7 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
         <li><i aria-hidden="true"></i>Zaključna dela</li>
       </ul>
     </div>
-    <div class="hero-art" aria-label="Fotografiji njegovega dela">
+    <div class="hero-art" aria-label="Fotografiji najinega dela">
       <div class="hero-glow" aria-hidden="true"></div>
       <figure class="hero-main hero-parallax" data-px="-38">
         <img src="assets/hero-main.jpg" width="1200" height="1600" alt="Hrastove stopnice ob leseni oblogi, s stikalom na steni in črno kovinsko ograjo" fetchpriority="high">
@@ -477,8 +480,8 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
 <section class="trust" aria-label="Na kratko">
   <div class="wrap">
     <div><b>Od leta 2022</b><span>Samostojni podjetnik iz Brežic</span></div>
-    <div><b>Isti človek</b><span>Elektrika, barva in zaključek pod eno streho</span></div>
-    <div><b>Kje delam</b><span>Brežice in Posavje, za večja dela po Sloveniji</span></div>
+    <div><b>Ena ekipa</b><span>Elektrika, barva in zaključek pod eno streho</span></div>
+    <div><b>Kje delava</b><span>Brežice in Posavje, za večja dela po Sloveniji</span></div>
     <div><b>Cena vnaprej</b><span>Ponudba po postavkah, preden se delo začne</span></div>
   </div>
 </section>
@@ -494,15 +497,15 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
   <section class="sec" id="delo">
     <div class="wrap">
       <div class="sechead" data-rv>
-        <p class="kicker">Kaj delam</p>
+        <p class="kicker">Kaj delava</p>
         <h2 class="dsp">Tri obrti, ki se med sabo držijo</h2>
-        <p class="lede">Pri prenovi se največ napak zgodi na stiku med obrtniki. Kdo je pustil luknjo, kdo jo mora zapreti, kdo je zamudil. Pri meni tega stika ni, ker vse tri sloje prevzamem sam.</p>
+        <p class="lede">Pri prenovi se največ napak zgodi na stiku med obrtniki. Kdo je pustil luknjo, kdo jo mora zapreti, kdo je zamudil. Pri nama tega stika ni, ker vse tri sloje ostanejo pod eno streho.</p>
       </div>
 
       <div class="layer" data-rv>
         <figure class="layer-fig">
-          <img src="assets/delo-elektrika.jpg" width="1500" height="1000" loading="lazy" decoding="async"
-               alt="Stikalo na leseni oblogi ob hrastovih stopnicah">
+          <img src="assets/delo-elektrika.jpg" width="1200" height="1600" loading="lazy" decoding="async"
+               alt="Stara lesena obloga, hrastove stopnice, stikalo na steni in črna kovinska ograja">
         </figure>
         <div>
           <p class="layer-num">01</p>
@@ -514,8 +517,8 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
 
       <div class="layer flip" data-rv>
         <figure class="layer-fig">
-          <img src="assets/delo-barva.jpg" width="1500" height="1000" loading="lazy" decoding="async"
-               alt="Sveže pobarvane stene in strop ob hrastovem stopnišču">
+          <img src="assets/delo-barva.jpg" width="1200" height="1600" loading="lazy" decoding="async"
+               alt="Sveže pobarvane stene in strop, hrastovo stopnišče s črno ograjo in nov pod">
         </figure>
         <div>
           <p class="layer-num">02</p>
@@ -527,14 +530,27 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
 
       <div class="layer" data-rv>
         <figure class="layer-fig">
-          <img src="assets/delo-zakljucna.jpg" width="1500" height="1000" loading="lazy" decoding="async"
-               alt="Dokončana kopalnica z odprtim tušem in lučjo nad ogledalom">
+          <img src="assets/delo-zakljucna.jpg" width="1200" height="1600" loading="lazy" decoding="async"
+               alt="Dokončana kopalnica z odprtim tušem, hrastovo omarico in lučjo nad ogledalom">
         </figure>
         <div>
           <p class="layer-num">03</p>
           <h3 class="dsp">Zaključna dela</h3>
-          <p>Keramika, laminat, vinil. Adaptacije kopalnic, stanovanj in mansard. Hidroizolacija kleti in temeljev.</p>
-          <div class="taglist"><span>Keramika</span><span>Laminat in vinil</span><span>Kopalnice</span><span>Hidroizolacija</span></div>
+          <p>Keramika, laminat, vinil. Knauf: predelne stene, spuščeni stropi in obloge mansard iz mavčnih plošč. Adaptacije kopalnic, stanovanj in mansard. Hidroizolacija kleti in temeljev.</p>
+          <div class="taglist"><span>Keramika</span><span>Laminat in vinil</span><span>Knauf</span><span>Kopalnice</span><span>Hidroizolacija</span></div>
+        </div>
+      </div>
+
+      <div class="layer flip adapt" data-rv>
+        <figure class="layer-fig">
+          <img src="assets/adaptacija.jpg" width="1200" height="1600" loading="lazy" decoding="async"
+               alt="Prenovljena notranjost hiše z galerijo, hrastovimi stopnicami, osvetlitvijo stopnic in novim podom">
+        </figure>
+        <div>
+          <p class="layer-num">01 + 02 + 03</p>
+          <h3 class="dsp">Adaptacija hiše</h3>
+          <p>Ko se prenavlja cela hiša, se vse tri obrti srečajo v istem prostoru. Nova napeljava, knauf stene in stropi, kitanje in barva, keramika in pod. Vse to prevzameva v enem kosu, z enim ogledom in eno ponudbo, zato med deli ni čakanja na naslednjega izvajalca.</p>
+          <div class="taglist"><span>Cela hiša</span><span>Stanovanja</span><span>Mansarde</span><span>Ena ponudba</span></div>
         </div>
       </div>
     </div>
@@ -545,8 +561,8 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
     <div class="wrap">
       <div class="sechead" data-rv>
         <p class="kicker">Galerija</p>
-        <h2 class="dsp">Iz njegovih projektov</h2>
-        <p class="lede">Vse fotografije so z njegovih gradbišč. Kliknite za povečavo.</p>
+        <h2 class="dsp">Iz najinih projektov</h2>
+        <p class="lede">Vse fotografije so z najinih gradbišč. Kliknite za povečavo.</p>
       </div>
       <div class="grid" data-rv id="gal">
         <button class="gitem" type="button"><figure><img src="assets/gal-443.jpg" width="1100" height="1466" loading="lazy" decoding="async" alt="Stara lesena obloga, nove hrastove stopnice in stikalo na steni"><figcaption>Stara lesena obloga, nove stopnice, stikalo na dosegu.</figcaption></figure></button>
@@ -571,14 +587,17 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
       <div class="onas-copy">
         <p class="kicker">O nas</p>
         <h2 class="dsp">Kdo je za tem</h2>
-        <p class="big">Damir Meštrić, elektrikar, pleskar in izvajalec zaključnih del iz Brežic.</p>
-        <p>Samostojni podjetnik od junija 2022. Elektroinštalacije, pleskarska dela in zaključna dela prevzamem pod eno streho, zato na vašem gradbišču ni predajanja med obrtniki. Tisti, ki napelje žice, ve, kje bo stikalo, in tisti, ki polaga keramiko, ve, kje je napeljava.</p>
-        <p>Največ delam za ljudi, ki prenavljajo kopalnico, stanovanje ali mansardo in nočejo usklajevati petih telefonskih številk. Pridem pogledat, povem, kaj se da, in napišem ceno po postavkah.</p>
+        <p class="big">Damir Meštrić, elektrikar, pleskar in izvajalec zaključnih del iz Brežic. Z njim dela žena Sara Meštrić.</p>
+        <p>Samostojni podjetnik od junija 2022. Elektroinštalacije, pleskarska dela in zaključna dela prevzameva pod eno streho, zato na vašem gradbišču ni predajanja med obrtniki. Tisti, ki napelje žice, ve, kje bo stikalo, in tisti, ki polaga keramiko, ve, kje je napeljava.</p>
+        <p>Največ delava za ljudi, ki prenavljajo kopalnico, stanovanje, mansardo ali celo hišo in nočejo usklajevati petih telefonskih številk. Prideva pogledat, poveva, kaj se da, in napiševa ceno po postavkah.</p>
+        <p>Sara je prva, ki jo dobite na telefon. Sprejme klic ali sporočilo, se dogovori za ogled in termin, na gradbišču pa tudi sama prime za delo. Damir vodi izvedbo: elektriko, pleskanje in zaključna dela.</p>
         <dl class="onas-facts">
           <div><dt>Podjetje</dt><dd>Elektro, pleskarska in zaključna dela, Damir Meštrić s.p.</dd></div>
           <div><dt>Registracija</dt><dd>23. junij 2022, Brežice</dd></div>
-          <div><dt>Dejavnost</dt><dd>43.210 elektroinštalacije, pleskarstvo, zaključna dela</dd></div>
+          <div><dt>Dejavnost</dt><dd>43.210 elektroinštalacije, pleskarstvo, zaključna dela, knauf, adaptacije hiš</dd></div>
           <div><dt>Območje</dt><dd>Brežice in Posavje, za večja dela po Sloveniji</dd></div>
+          <div><dt>Ekipa</dt><dd>Damir Meštrić, izvedba. Sara Meštrić, kontakt in pomoč pri delu.</dd></div>
+          <div><dt>Telefon</dt><dd><a href="tel:+38670712665" style="color:inherit;text-decoration:none">070 712 665</a>, Sara</dd></div>
         </dl>
       </div>
     </div>
@@ -593,10 +612,10 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
       </div>
       <div data-rv>
         <div class="steps">
-          <div class="step"><b>01</b><h3>Pokličete</h3><p>Poveste, kaj potrebujete. Povem, ali je delo zame in kdaj lahko pridem.</p></div>
-          <div class="step"><b>02</b><h3>Ogled na naslovu</h3><p>Pridem pogledat prostor in obstoječo napeljavo. Brez ogleda ni poštene cene.</p></div>
-          <div class="step"><b>03</b><h3>Ponudba</h3><p>Cena po postavkah, preden se delo začne. Če se med delom kaj pokaže, se slišiva prej.</p></div>
-          <div class="step"><b>04</b><h3>Izvedba in predaja</h3><p>Delo pripeljem do konca in za sabo počistim.</p></div>
+          <div class="step"><b>01</b><h3>Pokličete</h3><p>Poveste, kaj potrebujete. Poveva, ali je delo za naju in kdaj lahko prideva.</p></div>
+          <div class="step"><b>02</b><h3>Ogled na naslovu</h3><p>Prideva pogledat prostor in obstoječo napeljavo. Brez ogleda ni poštene cene.</p></div>
+          <div class="step"><b>03</b><h3>Ponudba</h3><p>Cena po postavkah, preden se delo začne. Če se med delom kaj pokaže, se slišimo prej.</p></div>
+          <div class="step"><b>04</b><h3>Izvedba in predaja</h3><p>Delo pripeljeva do konca in za sabo počistiva.</p></div>
         </div>
       </div>
     </div>
@@ -678,23 +697,31 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
       <div class="faq" id="faq" data-rv>
         <div class="qa" data-open="0">
           <button type="button" aria-expanded="false">Koliko stane prenova kopalnice?<span class="sign" aria-hidden="true"></span></button>
-          <div class="panel"><div><p>Odvisno od kvadrature, materiala in stanja napeljave. Zato cene ne ugibam po telefonu. Pridem pogledat in dobite ceno po postavkah.</p></div></div>
+          <div class="panel"><div><p>Odvisno od kvadrature, materiala in stanja napeljave. Zato cene ne ugibava po telefonu. Prideva pogledat in dobite ceno po postavkah.</p></div></div>
         </div>
         <div class="qa" data-open="0">
           <button type="button" aria-expanded="false">Ali cena drži?<span class="sign" aria-hidden="true"></span></button>
-          <div class="panel"><div><p>Kar je na ponudbi, to velja. Če se med rušenjem pokaže nekaj, česar prej ni bilo mogoče videti, se slišiva, preden nadaljujem.</p></div></div>
+          <div class="panel"><div><p>Kar je na ponudbi, to velja. Če se med rušenjem pokaže nekaj, česar prej ni bilo mogoče videti, se slišimo, preden nadaljujeva.</p></div></div>
         </div>
         <div class="qa" data-open="0">
           <button type="button" aria-expanded="false">Ali res vse naredite sami?<span class="sign" aria-hidden="true"></span></button>
-          <div class="panel"><div><p>Elektroinštalacije, pleskarska dela in zaključna dela prevzamem sam. Za vodovod, mizarstvo in podobno vam povem vnaprej, kaj bo treba urediti posebej.</p></div></div>
+          <div class="panel"><div><p>Elektroinštalacije, pleskarska dela in zaključna dela prevzameva sama, Damir in Sara. Za vodovod, mizarstvo in podobno vam poveva vnaprej, kaj bo treba urediti posebej.</p></div></div>
         </div>
         <div class="qa" data-open="0">
           <button type="button" aria-expanded="false">Kje delate?<span class="sign" aria-hidden="true"></span></button>
           <div class="panel"><div><p>Brežice in Posavje, za večja dela po vsej Sloveniji.</p></div></div>
         </div>
         <div class="qa" data-open="0">
+          <button type="button" aria-expanded="false">Ali prenavljate tudi cele hiše?<span class="sign" aria-hidden="true"></span></button>
+          <div class="panel"><div><p>Da. Pri adaptaciji hiše se najbolj pozna, da so elektrika, pleskanje in zaključna dela pod eno streho. Prideva pogledat, se dogovorimo za vrstni red del in dobite eno ponudbo za vse.</p></div></div>
+        </div>
+        <div class="qa" data-open="0">
+          <button type="button" aria-expanded="false">Delate tudi knauf?<span class="sign" aria-hidden="true"></span></button>
+          <div class="panel"><div><p>Da. Predelne stene, spuščene strope in obloge mansard iz mavčnih plošč narediva sama, skupaj s kitanjem in barvanjem. Stena je tako končana v enem kosu, brez čakanja na drugega izvajalca.</p></div></div>
+        </div>
+        <div class="qa" data-open="0">
           <button type="button" aria-expanded="false">Ali izdate račun?<span class="sign" aria-hidden="true"></span></button>
-          <div class="panel"><div><p>Da. Nisem zavezanec za DDV, zato je na računu cena brez DDV.</p></div></div>
+          <div class="panel"><div><p>Da. Podjetje ni zavezanec za DDV, zato je na računu cena brez DDV.</p></div></div>
         </div>
         <div class="qa" data-open="0">
           <button type="button" aria-expanded="false">Kdaj lahko pridete?<span class="sign" aria-hidden="true"></span></button>
@@ -702,7 +729,11 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
         </div>
         <div class="qa" data-open="0">
           <button type="button" aria-expanded="false">Kaj pa prah in nered?<span class="sign" aria-hidden="true"></span></button>
-          <div class="panel"><div><p>Prostor za sabo počistim. Prahu pri rezanju in vrtanju se ne da povsem izogniti, da pa se ga omejiti.</p></div></div>
+          <div class="panel"><div><p>Prostor za sabo počistiva. Prahu pri rezanju in vrtanju se ne da povsem izogniti, da pa se ga omejiti.</p></div></div>
+        </div>
+        <div class="qa" data-open="0">
+          <button type="button" aria-expanded="false">Koga pokličem?<span class="sign" aria-hidden="true"></span></button>
+          <div class="panel"><div><p>Glavna številka je 070 712 665, oglasi se Sara. Če se ne oglasi, pokličite Damirja na 070 197 107.</p></div></div>
         </div>
       </div>
     </div>
@@ -714,18 +745,19 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
       <div class="sechead" data-rv>
         <p class="kicker">Kontakt</p>
         <h2 class="dsp">Povejte, kaj je treba narediti.</h2>
-        <p class="lede">Najhitreje me dobite po telefonu. Če raje pišete, mi pošljite nekaj vrstic in fotografijo prostora.</p>
+        <p class="lede">Najhitreje naju dobite po telefonu, oglasi se Sara. Če raje pišete, nama pošljite nekaj vrstic in fotografijo prostora.</p>
       </div>
       <div class="ct" data-rv>
         <div>
-          <a class="bigcall" href="tel:+38670197107">
+          <a class="bigcall" href="tel:+38670712665">
             <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6.6 3.5h3l1.4 4-2 1.4a13 13 0 0 0 6.1 6.1l1.4-2 4 1.4v3a2 2 0 0 1-2.2 2A17.5 17.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z" stroke-linejoin="round"/></svg></span>
-            070 197 107
+            070 712 665
           </a>
           <dl class="ctinfo">
-            <div><dt>E-pošta</dt><dd><a href="mailto:damir.mestric@gmail.com">damir.mestric@gmail.com</a></dd></div>
+            <div><dt>E-pošta</dt><dd><a href="mailto:turkmeli@gmail.com">turkmeli@gmail.com</a></dd></div>
+            <div><dt>Rezerva</dt><dd>Če se Sara na glavni številki ne oglasi, pokličite Damirja: <a href="tel:+38670197107">070 197 107</a>, <a href="mailto:damir.mestric@gmail.com">damir.mestric@gmail.com</a></dd></div>
             <div><dt>Naslov</dt><dd>Marof 20, 8250 Brežice</dd></div>
-            <div><dt>Delam v</dt><dd>Brežicah in Posavju, za večja dela po vsej Sloveniji</dd></div>
+            <div><dt>Delava v</dt><dd>Brežicah in Posavju, za večja dela po vsej Sloveniji</dd></div>
             <div><dt>Podjetje</dt><dd>Elektro, pleskarska in zaključna dela, Damir Meštrić s.p.</dd></div>
           </dl>
           <figure class="ctfig">
@@ -739,8 +771,8 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
           <div class="f-row"><label for="f-tel">Telefon</label><input id="f-tel" name="tel" type="tel" autocomplete="tel" required></div>
           <div class="f-row"><label for="f-txt">Kaj potrebujete</label><textarea id="f-txt" name="txt" required></textarea></div>
           <button class="btn btn--go" type="submit" style="width:100%"><i class="dot" aria-hidden="true"></i>Pripravi sporočilo</button>
-          <p class="f-note">Gumb odpre vaš e-poštni program z že vpisanim sporočilom na damir.mestric@gmail.com. Sporočilo pošljete sami, da ostane v vaši pošti.</p>
-          <p class="f-ok" id="fok" role="status"><span aria-hidden="true">✓</span><span>Sporočilo je pripravljeno v vašem e-poštnem programu. Če se ni odprl, pokličite na 070 197 107.</span></p>
+          <p class="f-note">Gumb odpre vaš e-poštni program z že vpisanim sporočilom na turkmeli@gmail.com. Sporočilo pošljete sami, da ostane v vaši pošti.</p>
+          <p class="f-ok" id="fok" role="status"><span aria-hidden="true">✓</span><span>Sporočilo je pripravljeno v vašem e-poštnem programu. Če se ni odprl, pokličite na 070 712 665.</span></p>
         </form>
       </div>
     </div>
@@ -753,12 +785,14 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
       <div>
         <h4>Podjetje</h4>
         <p>Elektro, pleskarska in zaključna dela,<br>Damir Meštrić s.p.<br>Marof 20, 8250 Brežice</p>
-        <p style="margin-top:14px">Matična številka 9161180000<br>Davčna številka 95566414<br>Nisem zavezanec za DDV.</p>
+        <p style="margin-top:14px">Matična številka 9161180000<br>Davčna številka 95566414<br>Podjetje ni zavezanec za DDV.</p>
       </div>
       <div>
         <h4>Kontakt</h4>
         <ul>
-          <li><a href="tel:+38670197107">070 197 107</a></li>
+          <li><a href="tel:+38670712665">070 712 665</a></li>
+          <li><a href="mailto:turkmeli@gmail.com">turkmeli@gmail.com</a></li>
+          <li>Rezerva: Damir, <a href="tel:+38670197107">070 197 107</a></li>
           <li><a href="mailto:damir.mestric@gmail.com">damir.mestric@gmail.com</a></li>
           <li><a class="greview" href="#" target="_blank" rel="noopener">Napišite Google oceno</a></li>
         </ul>
@@ -766,7 +800,7 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
       <div>
         <h4>Na strani</h4>
         <ul>
-          <li><a href="#delo">Kaj delam</a></li>
+          <li><a href="#delo">Kaj delava</a></li>
           <li><a href="#dela">Galerija</a></li>
           <li><a href="#onas">O nas</a></li>
           <li><a href="#potek">Kako poteka</a></li>
@@ -800,8 +834,11 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
 {"@context":"https://schema.org","@type":"Electrician",
 "name":"Elektro, pleskarska in zaključna dela, Damir Meštrić s.p.",
 "alternateName":"Damir Meštrić s.p.",
-"description":"Elektroinštalacije, razsvetljava, pleskarska in zaključna dela. Adaptacije kopalnic, stanovanj in mansard.",
-"telephone":"+386 70 197 107","email":"damir.mestric@gmail.com",
+"description":"Elektroinštalacije, razsvetljava, pleskarska in zaključna dela, knauf. Adaptacije kopalnic, stanovanj, mansard in celih hiš.",
+"telephone":"+386 70 712 665","email":"turkmeli@gmail.com",
+"contactPoint":[{"@type":"ContactPoint","contactType":"customer service","name":"Sara Meštrić","telephone":"+386 70 712 665","email":"turkmeli@gmail.com","availableLanguage":"sl"},
+{"@type":"ContactPoint","contactType":"customer service","name":"Damir Meštrić","telephone":"+386 70 197 107","email":"damir.mestric@gmail.com","availableLanguage":"sl"}],
+"founder":{"@type":"Person","name":"Damir Meštrić"},
 "foundingDate":"2022-06-23","taxID":"95566414","identifier":"9161180000",
 "address":{"@type":"PostalAddress","streetAddress":"Marof 20","addressLocality":"Brežice","postalCode":"8250","addressCountry":"SI"},
 "areaServed":[{"@type":"City","name":"Brežice"},{"@type":"AdministrativeArea","name":"Posavje"},{"@type":"Country","name":"Slovenija"}],
@@ -810,7 +847,9 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
 {"@type":"Offer","itemOffered":{"@type":"Service","name":"Razsvetljava"}},
 {"@type":"Offer","itemOffered":{"@type":"Service","name":"Pleskarska in dekorativna dela"}},
 {"@type":"Offer","itemOffered":{"@type":"Service","name":"Adaptacije kopalnic"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Adaptacije hiš in stanovanj"}},
 {"@type":"Offer","itemOffered":{"@type":"Service","name":"Keramičarska dela"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Suhomontažna dela, knauf"}},
 {"@type":"Offer","itemOffered":{"@type":"Service","name":"Hidroizolacija kleti in temeljev"}}]}
 </script>
 
@@ -1016,7 +1055,7 @@ lead.addEventListener('submit',function(e){
     return;
   }
   var body='Ime: '+ime+'\nTelefon: '+tel+'\n\n'+txt+'\n';
-  window.location.href='mailto:damir.mestric@gmail.com?subject='+
+  window.location.href='mailto:turkmeli@gmail.com?subject='+
     encodeURIComponent('Povpraševanje s spletne strani')+'&body='+encodeURIComponent(body);
   $('#fok').classList.add('show');
 });

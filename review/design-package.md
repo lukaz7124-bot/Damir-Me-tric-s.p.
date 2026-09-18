@@ -1,3 +1,5 @@
+> Opomba (september 2026): glavni kontakt je zdaj 070 712 665 in turkmeli@gmail.com, Damirjev 070 197 107 in damir.mestric@gmail.com ostaja kot rezerva. V podjetju dela tudi Sara, zato besedilo govori v dvojini, Damir ostaja glavna oseba. Fotografije v odseku Kaj delava so cele (3:4, brez izreza), dodan je blok Adaptacija hiše (fotografija 442) in dve vprašanji v FAQ.
+>
 > Opomba: ta paket opisuje prvo različico z drsečim videom v heroju. Na željo naročnika je bil video odstranjen, hero je zdaj statičen z dvema fotografijama, dodana sta odsek O nas in odsek za Google oceno. Barve, pisave, svetlobna linija, kopija odsekov in testi veljajo še naprej.
 
 # Design package — Meštrić, Brežice
