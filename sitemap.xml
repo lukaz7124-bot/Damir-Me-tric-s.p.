@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.damirmestric.com/</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.damirmestric.com/assets/hero-main.jpg</image:loc>
+      <image:title>Hrastove stopnice ob leseni oblogi, stikalo na steni in črna kovinska ograja</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.damirmestric.com/assets/delo-elektrika.jpg</image:loc>
+      <image:title>Elektroinštalacije: stikalo na leseni oblogi ob hrastovih stopnicah</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.damirmestric.com/assets/delo-barva.jpg</image:loc>
+      <image:title>Pleskarstvo: sveže pobarvane stene in strop ob hrastovem stopnišču</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.damirmestric.com/assets/delo-zakljucna.jpg</image:loc>
+      <image:title>Zaključna dela: dokončana kopalnica z odprtim tušem</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.damirmestric.com/assets/adaptacija.jpg</image:loc>
+      <image:title>Adaptacija hiše: prenovljena notranjost z galerijo in hrastovimi stopnicami</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.damirmestric.com/assets/gal-441.jpg</image:loc>
+      <image:title>Kopalnica s keramiko velikega formata</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.damirmestric.com/assets/gal-440.jpg</image:loc>
+      <image:title>Stopnišče iz hrasta in kovine, vgradni luči v steni</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.damirmestric.com/assets/gal-444.jpg</image:loc>
+      <image:title>Kopalnica s tuš kabino in osvetljeno omarico</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.damirmestric.com/assets/gal-446.jpg</image:loc>
+      <image:title>Ozka kopalnica z osvetljenim ogledalom</image:title>
+    </image:image>
+  </url>
+</urlset>

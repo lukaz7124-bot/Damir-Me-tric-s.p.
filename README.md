@@ -22,4 +22,4 @@ Povezava za gumb "Napišite Google oceno" je na enem mestu v `index.html`, v vrs
 
 ## Objava
 
-Ob objavi zamenjajte tri vrstice, označene s `<!-- DEPLOY STEP -->` v glavi `index.html`, z živim naslovom strani.
+Stran je javna na https://www.damirmestric.com (Vercel, samodejno iz veje `main`). Kanonični naslov, og oznake, `sitemap.xml` in `robots.txt` kažejo na ta naslov; ob menjavi domene jih posodobite.
