@@ -7,7 +7,7 @@ Statična stran brez ogrodja in brez gradnje: `index.html` in mapa `assets/`. Za
 ## Struktura
 
 - `index.html` – celotna stran (HTML, CSS in JavaScript v eni datoteki)
-- `assets/` – optimizirane fotografije (JPG in WebP v treh širinah, za `srcset`) in pisave v `assets/fonts/` (gostovane lokalno, brez Google Fonts)
+- `assets/` – optimizirane fotografije z opisnimi slovenskimi imeni (JPG in WebP v treh širinah, za `srcset`) in pisave v `assets/fonts/` (gostovane lokalno, brez Google Fonts)
 - `foto-original/` – izvirne fotografije del, kot jih je posnel izvajalec
 - `review/` – oblikovalski paket, skript za izdelavo slik iz izvirnikov in testi v pravem Chromu
 

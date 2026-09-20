@@ -31,5 +31,98 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "damir-me-tric-s-p.vercel.app"
+        }
+      ],
+      "destination": "https://www.damirmestric.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/assets/hero-main.jpg",
+      "destination": "/assets/hrastove-stopnice-stikalo-lesena-obloga.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/delo-elektrika.jpg",
+      "destination": "/assets/hrastove-stopnice-stikalo-lesena-obloga.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/gal-443.jpg",
+      "destination": "/assets/hrastove-stopnice-stikalo-lesena-obloga.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/hero-second.jpg",
+      "destination": "/assets/kopalnica-keramika-velikega-formata.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/gal-441.jpg",
+      "destination": "/assets/kopalnica-keramika-velikega-formata.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/delo-barva.jpg",
+      "destination": "/assets/pleskanje-sten-hrastovo-stopnisce.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/gal-440.jpg",
+      "destination": "/assets/pleskanje-sten-hrastovo-stopnisce.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/delo-zakljucna.jpg",
+      "destination": "/assets/kopalnica-odprt-tus-hrastova-omarica.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/gal-445.jpg",
+      "destination": "/assets/kopalnica-odprt-tus-hrastova-omarica.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/gal-444.jpg",
+      "destination": "/assets/kopalnica-tus-kabina-osvetljena-omarica.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/adaptacija.jpg",
+      "destination": "/assets/adaptacija-hise-notranjost-hrastove-stopnice.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/gal-442.jpg",
+      "destination": "/assets/adaptacija-hise-notranjost-hrastove-stopnice.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/gal-446.jpg",
+      "destination": "/assets/ozka-kopalnica-osvetljeno-ogledalo.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/onas.jpg",
+      "destination": "/assets/ozka-kopalnica-osvetljeno-ogledalo.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/svetloba.jpg",
+      "destination": "/assets/osvetlitev-stopnic-stikalo-lesena-obloga.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/kontakt.jpg",
+      "destination": "/assets/kopalnica-lebdeci-umivalnik-keramika.jpg",
+      "permanent": true
+    }
   ]
 }

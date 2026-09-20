@@ -1,3 +1,5 @@
+> Opomba (20. september 2026, SEO 2): fotografije imajo opisna slovenska imena datotek in ena datoteka služi vsem mestom, kjer se fotografija pojavi (9 datotek namesto 16); stara imena se preusmerijo v vercel.json, prav tako naslov vercel.app na www.damirmestric.com. H1 druga vrstica: "Damir Meštrić s.p. iz Brežic: elektroinštalacije, pleskarstvo in zaključna dela."
+>
 > Opomba (20. september 2026, SEO): naslov, opis, H1 (druga vrstica z imenom in obrtjo), H2 odsekov, alt besedila, strukturirani podatki, sitemap, robots, favicon in pisave (lokalno gostovane, z metrično prilagojenimi nadomestnimi pisavami) so bili posodobljeni za iskalnike. Fotografije imajo WebP različice v treh širinah. Majhne sive oznake (dt, noga) so z ink-3 prešle na ink-2 zaradi kontrasta.
 >
 > Opomba (september 2026): glavni kontakt je zdaj 070 712 665 in turkmeli@gmail.com, Damirjev 070 197 107 in damir.mestric@gmail.com ostaja kot rezerva. V podjetju dela tudi Sara, zato besedilo govori v dvojini, Damir ostaja glavna oseba. Fotografije v odseku Kaj delava so cele (3:4, brez izreza), dodan je blok Adaptacija hiše (fotografija 442) in dve vprašanji v FAQ.

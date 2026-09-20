@@ -7,40 +7,40 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://www.damirmestric.com/assets/hero-main.jpg</image:loc>
+      <image:loc>https://www.damirmestric.com/assets/hrastove-stopnice-stikalo-lesena-obloga.jpg</image:loc>
       <image:title>Hrastove stopnice ob leseni oblogi, stikalo na steni in črna kovinska ograja</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.damirmestric.com/assets/delo-elektrika.jpg</image:loc>
-      <image:title>Elektroinštalacije: stikalo na leseni oblogi ob hrastovih stopnicah</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.damirmestric.com/assets/delo-barva.jpg</image:loc>
+      <image:loc>https://www.damirmestric.com/assets/pleskanje-sten-hrastovo-stopnisce.jpg</image:loc>
       <image:title>Pleskarstvo: sveže pobarvane stene in strop ob hrastovem stopnišču</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.damirmestric.com/assets/delo-zakljucna.jpg</image:loc>
-      <image:title>Zaključna dela: dokončana kopalnica z odprtim tušem</image:title>
+      <image:loc>https://www.damirmestric.com/assets/kopalnica-odprt-tus-hrastova-omarica.jpg</image:loc>
+      <image:title>Zaključna dela: dokončana kopalnica z odprtim tušem in hrastovo omarico</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.damirmestric.com/assets/adaptacija.jpg</image:loc>
+      <image:loc>https://www.damirmestric.com/assets/adaptacija-hise-notranjost-hrastove-stopnice.jpg</image:loc>
       <image:title>Adaptacija hiše: prenovljena notranjost z galerijo in hrastovimi stopnicami</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.damirmestric.com/assets/gal-441.jpg</image:loc>
+      <image:loc>https://www.damirmestric.com/assets/kopalnica-keramika-velikega-formata.jpg</image:loc>
       <image:title>Kopalnica s keramiko velikega formata</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.damirmestric.com/assets/gal-440.jpg</image:loc>
-      <image:title>Stopnišče iz hrasta in kovine, vgradni luči v steni</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.damirmestric.com/assets/gal-444.jpg</image:loc>
+      <image:loc>https://www.damirmestric.com/assets/kopalnica-tus-kabina-osvetljena-omarica.jpg</image:loc>
       <image:title>Kopalnica s tuš kabino in osvetljeno omarico</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.damirmestric.com/assets/gal-446.jpg</image:loc>
+      <image:loc>https://www.damirmestric.com/assets/ozka-kopalnica-osvetljeno-ogledalo.jpg</image:loc>
       <image:title>Ozka kopalnica z osvetljenim ogledalom</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.damirmestric.com/assets/osvetlitev-stopnic-stikalo-lesena-obloga.jpg</image:loc>
+      <image:title>Osvetlitev stopnic in stikalo na leseni oblogi</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.damirmestric.com/assets/kopalnica-lebdeci-umivalnik-keramika.jpg</image:loc>
+      <image:title>Dokončana kopalnica z lebdečim umivalnikom in keramiko velikega formata</image:title>
     </image:image>
   </url>
 </urlset>
