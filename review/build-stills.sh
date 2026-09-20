@@ -17,4 +17,6 @@ full 443 1200 hero-main
 full 441  900 hero-second
 full 446 1100 onas
 for f in 443 440 442 441 444 445 446; do full $f 1100 gal-$f; done
+# WebP variants for every jpg (480, 800 and full width), used with srcset
+for j in "$A"/*.jpg; do n="${j%.jpg}"; for w in 480 800; do "$FF" -y -loglevel error -i "$j" -vf "scale='min($w,iw)':-2:flags=lanczos" -c:v libwebp -quality 76 "$n-$w.webp"; done; "$FF" -y -loglevel error -i "$j" -c:v libwebp -quality 80 "$n-full.webp"; done
 ls -la "$A"

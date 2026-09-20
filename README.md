@@ -7,9 +7,13 @@ Statična stran brez ogrodja in brez gradnje: `index.html` in mapa `assets/`. Za
 ## Struktura
 
 - `index.html` – celotna stran (HTML, CSS in JavaScript v eni datoteki)
-- `assets/` – optimizirane fotografije, ki jih stran uporablja
+- `assets/` – optimizirane fotografije (JPG in WebP v treh širinah, za `srcset`) in pisave v `assets/fonts/` (gostovane lokalno, brez Google Fonts)
 - `foto-original/` – izvirne fotografije del, kot jih je posnel izvajalec
 - `review/` – oblikovalski paket, skript za izdelavo slik iz izvirnikov in testi v pravem Chromu
+
+## SEO
+
+Naslov strani, opis, Open Graph, kanonični naslov, `robots.txt`, `sitemap.xml`, `favicon.svg` in strukturirani podatki (LocalBusiness, WebSite, WebPage, FAQPage v `index.html`) kažejo na https://www.damirmestric.com. `vercel.json` nastavi predpomnjenje slik in pisav. Ob spremembi vsebine posodobite `lastmod` v `sitemap.xml` in `dateModified` v strukturiranih podatkih.
 
 ## Kontakt
 
